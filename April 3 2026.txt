@@ -1,0 +1,569 @@
+================================================================================
+TOP WAR UPDATE — April 3, 2026
+Config: 8366 → 8458  |  Locale EN: 3348 → 3358
+================================================================================
+
+
+████████████████████████████████████████████████████████████████████████████████
+SECTION 1: CONFIG DIFF (8366 → 8458)
+████████████████████████████████████████████████████████████████████████████████
+
+================================================================================
+CONFIG DIFF: 8366 vs 8458
+================================================================================
+Old size: 45,478,973 chars
+New size: 45,551,527 chars
+Old tables: 1391
+New tables: 1391
+
+================================================================================
+BRAND NEW TABLES IN 8458 (0)
+================================================================================
+
+================================================================================
+TABLES REMOVED IN 8458 (0)
+================================================================================
+
+================================================================================
+TABLES WITH ROW COUNT CHANGES
+================================================================================
+  army: 8043 -> 8046 (+3)
+  award_center: 248 -> 249 (+1)
+  building: 8239 -> 8284 (+45)
+  convert: 8470 -> 8504 (+34)
+  decor_desc_new: 699 -> 702 (+3)
+  doubleBP_para: 267 -> 269 (+2)
+  dress_headframe: 157 -> 158 (+1)
+  dress_nameplate: 144 -> 145 (+1)
+  item: 11756 -> 11771 (+15) *** PRIORITY ***
+  item_guarantee: 58 -> 61 (+3)
+  mail: 892 -> 893 (+1)
+  map_zoom: 156 -> 157 (+1)
+  model: 765 -> 766 (+1)
+  monster: 6300 -> 6303 (+3)
+  monster_group: 348 -> 351 (+3)
+  pve_monster: 10703 -> 10706 (+3)
+  res_replace_g123: 947 -> 949 (+2)
+  reward: 53253 -> 53580 (+327)
+  sea_lottery_server_list: 2444 -> 1793 (-651)
+  skin: 287 -> 289 (+2) *** PRIORITY ***
+  video_activity: 242 -> 243 (+1)
+  wishing_tree: 3 -> 6 (+3)
+  ws_act_season_reward: 1346 -> 1495 (+149)
+
+  Total tables with row changes: 23
+
+================================================================================
+DETAILED ID DIFFS FOR PRIORITY TABLES
+================================================================================
+
+--- Mecha_skin ---
+  Total IDs in new: 4, in old: 4
+  No new IDs
+
+--- castle_face ---
+  NOT FOUND in 8458
+
+--- conqueror_2025_calendar ---
+  Total IDs in new: 28, in old: 28
+  No new IDs
+
+--- effect_buff ---
+  Total IDs in new: 2512, in old: 2512
+  No new IDs
+
+--- enigma_beast ---
+  Total IDs in new: 164, in old: 164
+  No new IDs
+
+--- hero ---
+  Total IDs in new: 200, in old: 200
+  No new IDs
+
+--- hero_skin ---
+  Total IDs in new: 295, in old: 295
+  No new IDs
+
+--- item ---
+  Total IDs in new: 11771, in old: 11756
+  NEW IDs (15): ['38000274', '38000275', '54002118', '54002119', '54002120', '81000170', '81000171', '81000172', '81000173', '81000174', '81000175', '81000176', '81000177', '81000178', '81000179']
+
+--- magic_skin ---
+  Total IDs in new: 12, in old: 12
+  No new IDs
+
+--- march_skin ---
+  Total IDs in new: 239, in old: 239
+  No new IDs
+
+--- skin ---
+  Total IDs in new: 289, in old: 287
+  NEW IDs (2): ['1996000', '1997000']
+
+--- warzone_skin ---
+  Total IDs in new: 18, in old: 18
+  No new IDs
+
+================================================================================
+NEW ROW DETAILS FOR PRIORITY TABLES
+================================================================================
+
+--- item: 15 new rows ---
+  Headers: ['id', 'group', 'type', 'type_open', 'filter_type', 'quality', 'name', 'name_with_para', 'desc', 'bi_group', 'bi_system', 'para1', 'para1_v1', 'para2', 'overlying_type', 'bag_type', 'bag_use', 'obtain_id', 'required_level', 'icon_text', 'level', 'effect', 'last_rounds', 'icon', 'icon_harmony', 'postpone_time', 'buffSource', 'max_num', 'treasurekey_para', 'item_gain', 'obtain_id_v1', 'obtain_id_v2', 'replace_id', 'word_suffix', 'delete_data', 'delete_true', 'end_time', 'order', 'special_effects', 'auto_use', 'cab_use', 'probability_use', 'jump_prop', 'get_source', 'para3', 'para4', 'ui_route', 'big_icon_route', 'undeletable', 'item_source', 'big_icon', 'use_condition', 'use_condition_para', 'use_condition_tips', 'daily_max', 'use_max', 'ava_use', 'hero_new_desc', 'item_new_preview', 'item_new_probability', 'item_search', 'item_transfer_num_limit']
+  id=38000274 | group=1996000 | type=29 | type_open= | filter_type=6 | quality=5 | name=item_name_38000274 | name_with_para= | desc=item_des_38000274 | bi_group=城堡皮肤 | bi_system=外观 | para1=-1
+  id=38000275 | group=1997000 | type=29 | type_open= | filter_type=6 | quality=5 | name=item_name_38000275 | name_with_para= | desc=item_des_38000275 | bi_group=城堡皮肤 | bi_system=外观 | para1=-1
+  id=54002118 | group=54002118 | type=17 | type_open= | filter_type=6 | quality=5 | name=building_name_54571 | name_with_para= | desc=item_des_54002118 | bi_group=装饰物 | bi_system=装饰物 | para1=54002118
+  id=54002119 | group=54002119 | type=17 | type_open= | filter_type=6 | quality=5 | name=building_name_54586 | name_with_para= | desc=item_des_54002119 | bi_group=装饰物 | bi_system=装饰物 | para1=54002119
+  id=54002120 | group=54002120 | type=17 | type_open= | filter_type=6 | quality=5 | name=building_name_54601 | name_with_para= | desc=item_des_54002120 | bi_group=装饰物 | bi_system=装饰物 | para1=54002120
+  id=81000170 | group=158 | type=2903 | type_open= | filter_type=6 | quality=5 | name=item_name_81000170 | name_with_para= | desc=item_des_81000170 | bi_group=头像框 | bi_system=外观 | para1=-1
+  id=81000171 | group=145 | type=2902 | type_open= | filter_type=6 | quality=5 | name=item_name_81000171 | name_with_para= | desc=item_des_81000171 | bi_group=铭牌 | bi_system=外观 | para1=-1
+  id=81000172 | group=81000172 | type=17 | type_open= | filter_type=3 | quality=5 | name=item_name_8100172 | name_with_para= | desc=item_des_81000172 | bi_group=其他 | bi_system=其他 | para1=81011648
+  id=81000173 | group=81000173 | type=17 | type_open= | filter_type=3 | quality=5 | name=item_name_8100173 | name_with_para= | desc=item_des_81000173 | bi_group=其他 | bi_system=其他 | para1=81011649
+  id=81000174 | group=81000174 | type=17 | type_open= | filter_type=3 | quality=5 | name=item_name_8100116 | name_with_para= | desc=item_des_81000116 | bi_group=其他 | bi_system=其他 | para1=81011650
+  id=81000175 | group=81000175 | type=17 | type_open= | filter_type=3 | quality=5 | name=item_name_8100117 | name_with_para= | desc=item_des_81000117 | bi_group=其他 | bi_system=其他 | para1=81011651
+  id=81000176 | group=81000176 | type=101 | type_open= | filter_type=3|6 | quality=5 | name=item_name_39200060 | name_with_para= | desc=item_desc_39200060 | bi_group=城堡皮肤 | bi_system=外观 | para1=81011697
+  id=81000177 | group=81000177 | type=17 | type_open= | filter_type=3 | quality=5 | name=item_name_8100177 | name_with_para= | desc=item_des_81000177 | bi_group=其他 | bi_system=其他 | para1=81011699
+  id=81000178 | group=81000178 | type=17 | type_open= | filter_type=3 | quality=5 | name=item_name_8100177 | name_with_para= | desc=item_des_81000177 | bi_group=其他 | bi_system=其他 | para1=81011700
+  id=81000179 | group=81000179 | type=17 | type_open= | filter_type=3 | quality=5 | name=item_name_8100177 | name_with_para= | desc=item_des_81000177 | bi_group=其他 | bi_system=其他 | para1=81011701
+
+--- skin: 2 new rows ---
+  Headers: ['id', 'anim', 'pic', 'army_skin', 'march_skin_id', 'sale_btn', 'get_pram', 'fragments_number', 'name', 'desc', 'equip_buff', 'own_buff', 'ui_cell_offset', 'ui_main_offset', 'userui_cell_offset', 'userui_main_offset', 'world_offset', 'is_show', 'is_temporarily', 'plat', 'exclude', 'plat_show', 'time', 'endtime', 'timeType', 'large', 'reward', 'icon_pos', 'only_limited', 'only_time', 'only_endtime', 'ui_model_offset', 'order', 'change_group', 'change_id', 'change_effect', 'interactive_effect', 'interactive_effect_id1', 'interactive_effect_id2', 'interactive_cd', 'city_skill_id', 'offsetY', 'special_effect_id', 'effect_offset', 'city_relation', 'link_city_show', 'city_effect_show', 'skin_group', 'skin_level', 'skin_up_banner', 'skin_up_convert_id', 'skin_up_level_icon', 'level_prefab', 'level_preview', 'skin_type', 'skin_level1_item', 'display_text', 'pic_new', 'server_show_number', 'server_time_show', 'fireEffect', 'plat_ignore', 'max_level', 'semipermanent_skin', 'city_skill_exclude', 'skin_link', 'new_level_prefab', 'new_city_upgrade', 'simplified_model_pic', 'simplified_model_offset', 'use_power', 'have_power', 'ultimate_skin_frame', 'server_cp']
+  id=1996000 | anim=effect/castle/castle_face_1996000_anim | pic=image/world_unit2/castle_face_1996000 | army_skin= | march_skin_id= | sale_btn=2 | get_pram=81100074 | fragments_number=1 | name=skin_name_1996000 | desc=skin_desc_1996000 | equip_buff=990888,1200|93001301,4000|9301170,3000 | own_buff=9301160,500|9301170,500
+  id=1997000 | anim=effect/castle/castle_face_1997000_anim | pic=image/world_unit2/castle_face_1997000 | army_skin= | march_skin_id= | sale_btn=2 | get_pram=81100074 | fragments_number=3 | name=skin_name_1997000 | desc=skin_desc_1997000 | equip_buff=990888,2500|93001301,8000|9301170,6000 | own_buff=9301160,1000|9301170,1000|1131001,200
+
+================================================================================
+NEW ROW DETAILS FOR NON-PRIORITY CHANGED TABLES
+================================================================================
+
+--- army: 3 new rows (was 8043, now 8046) ---
+  Headers: ['id', 'name', 'desc', 'new_model_id', 'new_model_key', 'type', 'level', 'max_level', 'quality', 'power', 'boss_power', 'power_new', 'score', 'width', 'height', 'point_type', 'upgrade_coin', 'building_id', 'load', 'speed', 'load_coin', 'boss', 'key_name', 'revise', 'attack_skill', 'transfer_type', 'new_name', 'monster_type', 'orign_model', 'pro_model', 'army_skill', 'hero_fixed_hp_para', 'repair_cost', 'repair_time', 'siege_value', 'army_type_hospital', 'mecha_id', 'thor_group', 'glorious_science_group', 'army_fight_type', 'energy', 'army_queue_fight', 'new_hero_fixed_hp_para']
+  id=5400023 | name= | desc= | new_model_id= | new_model_key= | type=201 | level=1 | max_level=1 | quality=1 | power=9.9e+19
+  id=5400024 | name= | desc= | new_model_id= | new_model_key= | type=101 | level=1 | max_level=1 | quality=1 | power=9.9e+19
+  id=5400025 | name= | desc= | new_model_id= | new_model_key= | type=301 | level=1 | max_level=1 | quality=1 | power=9.9e+19
+
+--- award_center: 1 new rows (was 248, now 249) ---
+  Headers: ['ID', 'form', 'category', 'activity_para', 'title', 'desc', 'name', 'icon', 'activity_day_target_reset_effect']
+  ID=255 | form=973000 | category=1 | activity_para=81200243 | title=award_center_title01 | desc=award_center_desc01 | name=activity_name_81200243 | icon=activity_icon_81200243 | activity_day_target_reset_effect=0
+
+--- building: 45 new rows (was 8239, now 8284) ---
+  Headers: ['id', 'name', 'desc', 'power', 'score', 'build_count', 'level', 'max_level', 'type', 'group', 'height', 'width', 'tap_count', 'point_type', 'is_open', 'is_destroy', 'player_level', 'recall_file_path', 'prefab', 'model', 'city_effect', 'color', 'repair_art', 'is_border', 'iconSrc', 'iconType', 'shortcut_icon', 'shortcut_name', 'order', 'client_type', 'repair_level', 'repair_cost_coin', 'repair_cost_oil', 'build_coin', 'upgrade_coin', 'produce_time', 'para', 'para1', 'produce_type', 'produce_coin', 'worker_offset', 'click_sound', 'atlas', 'atlas_path', 'scale_para', 'x_para', 'y_para', 'area', 'quality', 'buff_id', 'buff_max_num', 'is_buy', 'build_resource', 'decorations_material', 'building_change', 'show_plat', 'show_time', 'show_endtime', 'switch_load', 'treasure_obtainways', 'treasure_debris', 'treasure_pic', 'treasure_buffdisplay', 'disable_merge', 'hide_level', 'no_deletion', 'para_v1', 'para1_v1', 'buff_ext', 'unlock_after_zone', 'unmovable', 'building_decoration_skill_id', 'stars', 'fragments_use', 'fragments_worth', 'if_exchange', 'fragments_id', 'if_choose', 'type_jump', 'type_id', 'repair_cost_item', 'item_guide_id', 'atlas_adjustment', 'server_open_day', 'not_show', 'new_order', 'fuse_g123', 'g123_power_exclusive', 'plat_ignore', 'special_floor', 'new_building_effect', 'mutually_exclusive', 'simplified_model_mark', 'power_new', 'research_time', 'open_regTag', 'show_player_level', 'building_item_position', 'building_buff_type_id', 'like_reward', 'red_decoration_cp']
+  id=54571 | name=building_name_54571 | desc=building_desc_54571 | power=100.0 | score=0.0 | build_count=0 | level=1 | max_level=15 | type=4 | group=5989
+  id=54572 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=2 | max_level=15 | type=4 | group=5989
+  id=54573 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=3 | max_level=15 | type=4 | group=5989
+  id=54574 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=4 | max_level=15 | type=4 | group=5989
+  id=54575 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=5 | max_level=15 | type=4 | group=5989
+  id=54576 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=6 | max_level=15 | type=4 | group=5989
+  id=54577 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=7 | max_level=15 | type=4 | group=5989
+  id=54578 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=8 | max_level=15 | type=4 | group=5989
+  id=54579 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=9 | max_level=15 | type=4 | group=5989
+  id=54580 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=10 | max_level=15 | type=4 | group=5989
+  id=54581 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=11 | max_level=15 | type=4 | group=5989
+  id=54582 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=12 | max_level=15 | type=4 | group=5989
+  id=54583 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=13 | max_level=15 | type=4 | group=5989
+  id=54584 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=14 | max_level=15 | type=4 | group=5989
+  id=54585 | name=building_name_54571 | desc= | power=100.0 | score=0.0 | build_count=0 | level=15 | max_level=15 | type=4 | group=5989
+  ... and 30 more rows
+
+--- convert: 34 new rows (was 8470, now 8504) ---
+  Headers: ['id', 'type', 'convert_type', 'needItem', 'needRss', 'reward', 'times', 'desc', 'index', 'daily', 'color', 'text', 'limit_level', 'target', 'page_show_group', 'flash', 'target_judge', 'buy_limit_cond']
+  id=8140597 | type=8133 | convert_type=1 | needItem=81000168|299 | needRss= | reward=81011662 | times=1 | desc= | index=1 | daily=
+  id=8140598 | type=8133 | convert_type=1 | needItem=81000168|999 | needRss= | reward=81011663 | times=1 | desc= | index=2 | daily=
+  id=8140600 | type=8134 | convert_type=1 | needItem=81000168|150 | needRss= | reward=81011665 | times=243 | desc= | index=4 | daily=
+  id=8140601 | type=8134 | convert_type=1 | needItem=81000168|100 | needRss= | reward=81011666 | times=243 | desc= | index=5 | daily=
+  id=8140602 | type=8134 | convert_type=1 | needItem=81000168|999 | needRss= | reward=81011667 | times=27 | desc= | index=6 | daily=
+  id=8140603 | type=8134 | convert_type=1 | needItem=81000168|2000 | needRss= | reward=81011668 | times=1 | desc= | index=7 | daily=
+  id=8140604 | type=8134 | convert_type=1 | needItem=81000168|999 | needRss= | reward=81011669 | times=5 | desc= | index=8 | daily=
+  id=8140605 | type=8134 | convert_type=1 | needItem=81000168|299 | needRss= | reward=81011670 | times=3 | desc= | index=9 | daily=
+  id=8140606 | type=8134 | convert_type=1 | needItem=81000168|328 | needRss= | reward=81011671 | times=3 | desc= | index=10 | daily=
+  id=8140607 | type=8134 | convert_type=1 | needItem=81000168|900 | needRss= | reward=81011672 | times=2 | desc= | index=11 | daily=
+  id=8140608 | type=8134 | convert_type=1 | needItem=81000168|30 | needRss= | reward=81011673 | times=30 | desc= | index=12 | daily=
+  id=8140609 | type=8134 | convert_type=1 | needItem=81000168|30 | needRss= | reward=81011674 | times=100 | desc= | index=13 | daily=
+  id=8140610 | type=8134 | convert_type=1 | needItem=81000168|30 | needRss= | reward=81011675 | times=30 | desc= | index=14 | daily=
+  id=8140611 | type=8134 | convert_type=1 | needItem=81000168|500 | needRss= | reward=81011676 | times=3 | desc= | index=15 | daily=
+  id=8140612 | type=8134 | convert_type=1 | needItem=81000168|120 | needRss= | reward=81011677 | times=30 | desc= | index=16 | daily=
+  ... and 19 more rows
+
+--- decor_desc_new: 3 new rows (was 699, now 702) ---
+  Headers: ['group', 'decor_id', 'is_collaborated_decor', 'decor_effect_desc', 'decor_effect_data', 'decor_desc_new']
+  group=5989 | decor_id= | is_collaborated_decor=0 | decor_effect_desc=1|buff_1001001|<id=220> | decor_effect_data= | decor_desc_new=building_desc_54571
+  group=5990 | decor_id= | is_collaborated_decor=0 | decor_effect_desc=1|medai_sci_1_1|<id=220> | decor_effect_data= | decor_desc_new=building_desc_54586
+  group=5991 | decor_id= | is_collaborated_decor=0 | decor_effect_desc=1|buff_930100|<id=220> | decor_effect_data= | decor_desc_new=building_desc_54601
+
+--- doubleBP_para: 2 new rows (was 267, now 269) ---
+  Headers: ['act_id', 'exchange_id', 'item_id', 'infinite_reward', 'free_buff', 'bp_limit', 'super_show', 'extra_show_exp']
+  act_id=81200262 | exchange_id=81300457|81300458 | item_id=81000169 | infinite_reward=500|81011924|30 | free_buff=0 | bp_limit=10000000 | super_show=1 | extra_show_exp=10
+  act_id=81200256 | exchange_id=81300411|81300412 | item_id=81000139 | infinite_reward=500|9900001|30 | free_buff=0 | bp_limit=10000000 | super_show=1 | extra_show_exp=10
+
+--- dress_headframe: 1 new rows (was 157, now 158) ---
+  Headers: ['id', 'res_type', 'pic', 'prefab', 'get_type', 'get_desc', 'get_param', 'name', 'is_show', 'show_order', 'userui_main_offset', 'world_offset', 'plat', 'time', 'endtime', 'timeType', 'plat_ignore', 'is_preshow']
+  id=158 | res_type=1 | pic=image/headFrame/headFrame_158 | prefab= | get_type=6 | get_desc=exchange_name_2259202 | get_param=0 | name=headFrame_name158 | is_show=1 | show_order=70
+
+--- dress_nameplate: 1 new rows (was 144, now 145) ---
+  Headers: ['id', 'pic', 'get_type', 'get_desc', 'get_param', 'name', 'show_order', 'userui_main_offset', 'is_show', 'world_offset', 'plat', 'time', 'endtime', 'timeType', 'order', 'pic_new', 'plat_ignore', 'cannot_use_pixel_width', 'server_show_number', 'server_time_show']
+  id=145 | pic=image/world_unit2/castle_name_145 | get_type=4 | get_desc=activity_name_79100031 | get_param=81200262 | name=castle_name_145 | show_order=-1 | userui_main_offset=1,-105,1 | is_show=1 | world_offset=3,0,0.5
+
+--- item_guarantee: 3 new rows (was 58, now 61) ---
+  Headers: ['id', 'group', 'target_value', 'reward_id', 'reward_des', 'pro_id', 'banner', 'name', 'single_value', 'banner_v2', 'target_value_key', 'single_value_key', 'des', 'reward_icon', 'reward_des1', 'reward_des2', 'reward_des3', 'reward_des4']
+  id=81000177 | group=44 | target_value=5 | reward_id=81011923 | reward_des=item_guarantee_key9 | pro_id=386 | banner=guarantee_banner_81000177 | name=item_name_8100177 | single_value=1 | banner_v2=guarantee_banner_81000177
+  id=81000178 | group=44 | target_value=5 | reward_id=81011923 | reward_des=item_guarantee_key9 | pro_id=386 | banner=guarantee_banner_81000177 | name=item_name_8100177 | single_value=1 | banner_v2=guarantee_banner_81000177
+  id=81000179 | group=44 | target_value=5 | reward_id=81011923 | reward_des=item_guarantee_key9 | pro_id=386 | banner=guarantee_banner_81000177 | name=item_name_8100177 | single_value=1 | banner_v2=guarantee_banner_81000177
+
+--- mail: 1 new rows (was 892, now 893) ---
+  Headers: ['id', 'type', 'title', 'content', 'para', 'icon', 'receive_plat', 'reward_plat', 'subtitle_key']
+  id=81037 | type=15 | title=mail_title_81037 | content=mail_content_81037 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+
+--- map_zoom: 1 new rows (was 156, now 157) ---
+  Headers: ['id', 'level_1_display', 'level_2_display', 'level_3_display', 'icon_type', 'icon', 'display_level', 'contention', 'color', 'icon_size', 'text_size', 'display_prefeb', 'cyan_same_theater']
+  id=251 | level_1_display=1 | level_2_display=1 | level_3_display=0 | icon_type= | icon=image/world_simple/world_simple_act_giantship | display_level=1,2,3 | contention= | color= | icon_size=1.0
+
+--- model: 1 new rows (was 765, now 766) ---
+  Headers: ['id', 'icon', 'group_id', 'model', 'model_down', 'model_up', 'iconSrc', 'iconType', 'scale_home', 'scale_battle', 'click_sound', 'die_sound', 'skill', 'die_effect', 'afterdie_effect', 'move_effect', 'hit_ratio', 'is_screen_shake', 'gunfire_type', 'worker_offset', 'atlas_path', 'image_path', 'scale_para', 'x_para', 'y_para', 'color', 'new_model', 'new_model_down', 'new_model_up', 'new_icon', 'new_image_path', 'new_fight_up', 'new_fight_down', 'model_path', 'name', 'broken_icon', 'hp_y_para']
+  id=7023 | icon=giant_ship_boss | group_id=1 | model=giant_ship_boss | model_down=giant_ship_boss_1 | model_up=giant_ship_boss_1 | iconSrc= | iconType= | scale_home=1.0 | scale_battle=1.0
+
+--- monster: 3 new rows (was 6300, now 6303) ---
+  Headers: ['id', 'group_id', 'level', 'reward', 'monster_level', 'star', 'monster_star', 'monster_name', 'monster_desc', 'custom_desc', 'model', 'icon_min', 'icon_max', 'soldier_level', 'soldier_count', 'hero_star', 'hero_level', 'component_level', 'csb_monster_score']
+  id=5400023 | group_id=5400023 | level=1 | reward=0 | monster_level=5400023 | star= | monster_star= | monster_name= | monster_desc= | custom_desc=
+  id=5400024 | group_id=5400024 | level=1 | reward=0 | monster_level=5400024 | star= | monster_star= | monster_name= | monster_desc= | custom_desc=
+  id=5400025 | group_id=5400025 | level=1 | reward=0 | monster_level=5400025 | star= | monster_star= | monster_name= | monster_desc= | custom_desc=
+
+--- monster_group: 3 new rows (was 348, now 351) ---
+  Headers: ['id', 'model', 'icon', 'icon_big', 'picture', 'x_para', 'y_para', 'name', 'desc', 'cost_energy', 'life_time', 'death_time', 'drop_client', 'search_show', 'search_shield', 'super_assembly_cost', 'model_size', 'search_order', 'monster_type', 'search_level', 'search_group', 'personal_honor', 'reward_res_show', 'passenger_cost', 'switch', 'map_zoom_icon', 'monster_arms', 'empire_level_show_lv', 'drop_client_full', 'suggest_lv', 'search_show_kvk', 'absolute_or_relatively_level', 'expansion_model', 'expansion_icon', 'expansion_icon_big', 'expansion_picture', 'nw_expansion_model', 'nw_expansion_icon', 'nw_expansion_icon_big', 'nw_expansion_picture', 'relevance_activity', 'drop_client_limit', 'afk_reward_show', 'monster_categories']
+  id=5400023 | model=giant_ship_boss | icon=image/activity/ActivityGiantShips/icon_head1 | icon_big= | picture= | x_para= | y_para= | name=monster_name5400023 | desc=monster_desc_5400023 | cost_energy=0
+  id=5400024 | model=giant_ship_boss | icon=image/activity/ActivityGiantShips/icon_head1 | icon_big= | picture= | x_para= | y_para= | name=monster_name5400023 | desc=monster_desc_5400023 | cost_energy=0
+  id=5400025 | model=giant_ship_boss | icon=image/activity/ActivityGiantShips/icon_head1 | icon_big= | picture= | x_para= | y_para= | name=monster_name5400023 | desc=monster_desc_5400023 | cost_energy=0
+
+--- pve_monster: 3 new rows (was 10703, now 10706) ---
+  Headers: ['id', 'enemy_type', 'hero', 'hero_level', 'hero_star', 'hero_skill', 'battle_buff', 'enemy_config', 'unit_model', 'reward', 'reward_1', 'reward_world_v1', 'reward_show', 'gift', 'warrior_drop', 'engineer_drop', 'round_limit', 'reward_res_show', 'hero_exp', 'reward_full', 'reward_show_full', 'fight_power', 'army_number', 'extra_reward', 'afk_reward', 'afk_reward_show']
+  id=5400023 | enemy_type=1 | hero= | hero_level= | hero_star= | hero_skill= | battle_buff=910309|1 | enemy_config=5400023 | unit_model= | reward=
+  id=5400024 | enemy_type=0 | hero= | hero_level= | hero_star= | hero_skill= | battle_buff=910309|1 | enemy_config=5400024 | unit_model= | reward=
+  id=5400025 | enemy_type=2 | hero= | hero_level= | hero_star= | hero_skill= | battle_buff=910309|1 | enemy_config=5400025 | unit_model= | reward=
+
+--- res_replace_g123: 2 new rows (was 947, now 949) ---
+  Headers: ['id', 'image', 'image_to', 'para1', 'para2']
+  id=1036 | image=activity_heroLevel_2_7 | image_to=activity_icon_1562_g123 | para1= | para2=
+  id=1037 | image=activity_heroLevel_2_7_gray | image_to=activity_icon_1562_gray_g123 | para1= | para2=
+
+--- reward: 327 new rows (was 53253, now 53580) ---
+  Headers: ['id', 'coin', 'wood', 'oil', 'energy', 'exp', 'gold', 'military', 'cab_res', 'csb_res', 'army_id', 'army_num', 'honor', 'kvk_tec_res', 'kvk_task_coin', 'kvk_tec_coin', 'type', 'item', 'num', 'quality', 'rate', 'is_removal', 'building', 'building_num', 'building_rate', 'resource', 'resource_num', 'resource_rate', 'hero', 'hero_num', 'hero_rate', 'newReward', 'union_box', 'must_items', 'exhibition', 'item_minimum_type', 'item_minimum', 'chip', 'chip_num', 'chip_rate', 'chip_level', 'chip_choose_num', 'chip_choose_idx']
+  id=54002118 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=54002119 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=54002120 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011601 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011602 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011603 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011604 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011605 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011606 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011607 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011608 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011609 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011610 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011611 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=81011612 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  ... and 312 more rows
+
+--- sea_lottery_server_list: 104 new rows (was 2444, now 1793) ---
+  Headers: ['id', 'score_1', 'score_2', 'region']
+  id=4426 | score_1=0 | score_2=188591 | region=0
+  id=4424 | score_1=0 | score_2=67029 | region=1
+  id=4423 | score_1=0 | score_2=112904 | region=1
+  id=4422 | score_1=0 | score_2=116877 | region=1
+  id=4421 | score_1=2 | score_2=117406 | region=1
+  id=4420 | score_1=0 | score_2=52653 | region=1
+  id=4419 | score_1=6 | score_2=138471 | region=1
+  id=4418 | score_1=1 | score_2=132802 | region=1
+  id=4417 | score_1=1 | score_2=124250 | region=1
+  id=4416 | score_1=0 | score_2=44956 | region=1
+  id=4415 | score_1=0 | score_2=408731 | region=0
+  id=4414 | score_1=0 | score_2=129445 | region=0
+  id=4413 | score_1=1 | score_2=307249 | region=0
+  id=4412 | score_1=3 | score_2=354610 | region=0
+  id=4411 | score_1=0 | score_2=250317 | region=0
+  ... and 89 more rows
+
+--- video_activity: 1 new rows (was 242, now 243) ---
+  Headers: ['id', 'path', 'switch', 'pic', 'bgIndex', 'size', 'close_button_show']
+  id=259 | path=zh_cn|Apr26_cn,en|Apr26_en,jp|Apr26_jp | switch= | pic=Apr2026.png | bgIndex=9 | size=520|520 | close_button_show=
+
+--- wishing_tree: 3 new rows (was 3, now 6) ---
+  Headers: ['id', 'tableInfoType_id', 'wishing_tree_name', 'unlock_time', 'exchange_id', 'reward_num', 'reward_poor_id', 'reward_show']
+  id=4 | tableInfoType_id=3 | wishing_tree_name=wishing_tree_name1 | unlock_time=0 | exchange_id=81300378 | reward_num=10 | reward_poor_id=4 | reward_show=81011899
+  id=5 | tableInfoType_id=3 | wishing_tree_name=wishing_tree_name2 | unlock_time=24 | exchange_id=81300379 | reward_num=10 | reward_poor_id=5 | reward_show=81011900
+  id=6 | tableInfoType_id=3 | wishing_tree_name=wishing_tree_name3 | unlock_time=48 | exchange_id=81300380 | reward_num=10 | reward_poor_id=6 | reward_show=81011901
+
+--- ws_act_season_reward: 149 new rows (was 1346, now 1495) ---
+  Headers: ['id', 'act_id', 'group', 'season', 'season_stage', 'need_power', 'win_reward', 'los_reward']
+  id=1347 | act_id=81200242 | group=0 | season=1 | season_stage=0 | need_power=0,0 | win_reward=81011706 | los_reward=81011711
+  id=1348 | act_id=81200242 | group=0 | season=1 | season_stage=0 | need_power=14,7 | win_reward=81011705 | los_reward=81011710
+  id=1349 | act_id=81200242 | group=0 | season=1 | season_stage=0 | need_power=14,9 | win_reward=81011704 | los_reward=81011709
+  id=1350 | act_id=81200242 | group=0 | season=1 | season_stage=0 | need_power=28,10 | win_reward=81011703 | los_reward=81011708
+  id=1351 | act_id=81200242 | group=0 | season=1 | season_stage=0 | need_power=42,10 | win_reward=81011702 | los_reward=81011707
+  id=1352 | act_id=81200242 | group=0 | season=1 | season_stage=1 | need_power=0,0 | win_reward=81011706 | los_reward=81011711
+  id=1353 | act_id=81200242 | group=0 | season=1 | season_stage=1 | need_power=14,7 | win_reward=81011705 | los_reward=81011710
+  id=1354 | act_id=81200242 | group=0 | season=1 | season_stage=1 | need_power=14,9 | win_reward=81011704 | los_reward=81011709
+  id=1355 | act_id=81200242 | group=0 | season=1 | season_stage=1 | need_power=28,10 | win_reward=81011703 | los_reward=81011708
+  id=1356 | act_id=81200242 | group=0 | season=1 | season_stage=1 | need_power=42,10 | win_reward=81011702 | los_reward=81011707
+  id=1357 | act_id=81200242 | group=0 | season=1 | season_stage=2 | need_power=0,0 | win_reward=81011706 | los_reward=81011711
+  id=1358 | act_id=81200242 | group=0 | season=1 | season_stage=2 | need_power=14,7 | win_reward=81011705 | los_reward=81011710
+  id=1359 | act_id=81200242 | group=0 | season=1 | season_stage=2 | need_power=14,9 | win_reward=81011704 | los_reward=81011709
+  id=1360 | act_id=81200242 | group=0 | season=1 | season_stage=2 | need_power=28,10 | win_reward=81011703 | los_reward=81011708
+  id=1361 | act_id=81200242 | group=0 | season=1 | season_stage=2 | need_power=42,10 | win_reward=81011702 | los_reward=81011707
+  ... and 134 more rows
+
+████████████████████████████████████████████████████████████████████████████████
+SECTION 2: LOCALE DIFF EN (3348 → 3358)
+████████████████████████████████████████████████████████████████████████████████
+
+LOCALE DIFF: en_1.6.3348 → en_1.6.3358
+============================================================
+OLD keys: 63934
+NEW keys: 63972
+ADDED:    38
+REMOVED:  0
+CHANGED:  30
+
+============================================================
+NEW KEYS (38)
+============================================================
+
+[conqueror2025_wasteland_textui_165]
+  Lv. {0} Wasteland:
+
+[conqueror2025_wasteland_textui_166]
+  Wasteland List
+
+[conqueror2025_wasteland_textui_167]
+  Neutral City List
+
+[conqueror2025_wasteland_textui_168]
+  Lv. {0} Neutral City:
+
+[conqueror2025_wasteland_textui_169]
+  Storm Council
+
+[conqueror2025_wasteland_tips_186]
+  A queue is currently marching to claim
+
+[headFrame_name158]
+  Joyful Bunny
+
+[headFrame_name159]
+  Gold Block Proof
+
+[item_des_81000189]
+  Use it to get the Gold Block Proof Avatar Frame (30 days)
+
+[item_name_81000189]
+  Gold Block Proof Avatar Frame (30 days)
+
+[minigame_tips_01]
+  Your CP is too low to clear this stage. Increase your CP and try again.
+
+[storm_ssemble_103]
+  Eliminated
+
+[storm_ssemble_104]
+  This troop has been eliminated!
+
+[storm_ssemble_909]
+  Apex Duel Battle Report
+
+[storm_ssemble_910]
+  Where my army marches, your territory ends.
+
+[storm_ssemble_911]
+  Fall in! Show them the gap between themselves and a true king.
+
+[storm_ssemble_912]
+  Witness our rally speed. Scared yet?
+
+[storm_ssemble_913]
+  I don't need to bluff. My true strength speaks for itself!
+
+[storm_ssemble_914]
+  My troops are elite, my supplies abundant. Why should I fear you?
+
+[storm_ssemble_915]
+  Care for a challenge?
+
+[storm_ssemble_916]
+  A total of {0} enemies defeated!
+
+[storm_ssemble_917]
+  Our side's Valor is in the lead!
+
+[target_hero_174_1]
+  Upgrade Ella to Lv. 10
+
+[target_hero_174_2]
+  Upgrade Ella to 2 stars
+
+[target_hero_174_3]
+  Upgrade Ella to 3 stars
+
+[target_hero_174_4]
+  Upgrade Ella to 4 stars
+
+[target_hero_240_1]
+  Upgrade Sinope to Lv. 10
+
+[target_hero_240_2]
+  Upgrade Sinope to 2 stars
+
+[target_hero_240_3]
+  Upgrade Sinope to 3 stars
+
+[target_hero_240_4]
+  Upgrade Sinope to 4 stars
+
+[target_hero_241_1]
+  Upgrade Margaretha to Lv. 10
+
+[target_hero_241_2]
+  Upgrade Margaretha to 2 stars
+
+[target_hero_241_3]
+  Upgrade Margaretha to 3 stars
+
+[target_hero_241_4]
+  Upgrade Margaretha to 4 stars
+
+[target_hero_338_1]
+  Upgrade Franziska to Lv. 10
+
+[target_hero_338_2]
+  Upgrade Franziska to 2 stars
+
+[target_hero_338_3]
+  Upgrade Franziska to 3 stars
+
+[target_hero_338_4]
+  Upgrade Franziska to 4 stars
+
+============================================================
+CHANGED KEYS (30)
+============================================================
+
+[exchange_des_200006]
+  OLD: After use, get Bob skin
+  NEW: Use it to get Bob Skin
+
+[exchange_des_200007]
+  OLD: Use to get Hammer Skin
+  NEW: Use it to get Hammer Skin
+
+[exchange_des_200008]
+  OLD: Use to get Ganso Skin
+  NEW: Use it to get Ganso Skin
+
+[exchange_desc_200018]
+  OLD: After use, get O'Neill skin
+  NEW: Use it to get O'Neill Skin
+
+[exchange_desc_200019]
+  OLD: After use, get Dr. Gero's skin
+  NEW: Use it to get Dr. Gero Skin
+
+[exchange_desc_200020]
+  OLD: Get Edward skin after use
+  NEW: Use it to get Edward Skin
+
+[exchange_desc_200034]
+  OLD: After use, get Merida skin
+  NEW: Use it to get Merida Skin
+
+[exchange_desc_200035]
+  OLD: Get Chloe skin after use
+  NEW: Use it to get Chloe Skin
+
+[exchange_desc_200119]
+  OLD: After use, get Dr. Gero's skin
+  NEW: Use it to get Dr. Gero Skin
+
+[exchange_desc_200120]
+  OLD: Get Edward skin after use
+  NEW: Use it to get Edward Skin
+
+[exchange_desc_200220]
+  OLD: Get Edward skin after use
+  NEW: Use it to get Edward Skin
+
+[item_des_54000202]
+  OLD: Use it to get the Freshly Baked Avatar Frame (Permanent)
+  NEW: Use it to get the Completely Satisfied Nameplate (Permanent)
+
+[item_desc12902001]
+  OLD: Obtain War Madman Nameplate after use.
+  NEW: Use it to get the War Maniac Nameplate.
+
+[item_desc12903001]
+  OLD: Use it to get War Freak Frame.
+  NEW: Use it to get the War Freak Avatar Frame.
+
+[item_desc13101001]
+  OLD: Obtain War Madman Tywin Skin after use.
+  NEW: Use it to get the War Madman Tywin Skin
+
+[item_desc14101001]
+  OLD: Use to get Black Widow Skin
+  NEW: Use it to get Black Widow Skin
+
+[item_desc14101002]
+  OLD: After use, get Reichstein skin
+  NEW: Use it to get Reichstein Skin
+
+[item_desc14101008]
+  OLD: After use, get Bob skin
+  NEW: Use it to get Bob Skin
+
+[item_desc14101010]
+  OLD: Get Simon skin after use
+  NEW: Use it to get Simon Skin
+
+[item_desc14101015]
+  OLD: After use, get O'Neill skin
+  NEW: Use it to get O'Neill Skin
+
+[item_desc14101017]
+  OLD: After use, get Dr. Gero's skin
+  NEW: Use it to get Dr. Gero Skin
+
+[item_desc14101021]
+  OLD: After use, get Tianmu skin
+  NEW: Use it to get Tianmu Skin
+
+[item_desc14101031]
+  OLD: Use it to get Rambo Skin.
+  NEW: Use it to get Rambo Skin
+
+[item_desc14101032]
+  OLD: Use it to get Alex Skin.
+  NEW: Use it to get Alex Skin
+
+[item_desc14101033]
+  OLD: Use it to get Sam Skin.
+  NEW: Use it to get Sam Skin
+
+[item_desc14101034]
+  OLD: Use to get Sid Skin
+  NEW: Use it to get Sid Skin
+
+[item_desc14101035]
+  OLD: Use to get Merida Skin
+  NEW: Use it to get Merida Skin
+
+[item_desc14101036]
+  OLD: Use to get Chloe Skin
+  NEW: Use it to get Chloe Skin
+
+[item_desc3900104]
+  OLD: Use to obtain Cupid
+  NEW: Use it to get Cupid
+
+[storm_ssemble_023]
+  OLD: {0} Commanders are supporting you!
+  NEW: Received {0} Cheers
+
+================================================================================
+END OF REPORT
+================================================================================
