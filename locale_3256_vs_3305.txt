@@ -1,0 +1,220 @@
+=== LOCALE DIFF: 3256 -> 3305 ===
+Added: 160, Removed: 0, Changed: 18
+
+--- NEW KEYS ---
+  Activity_Giantships_key21 = [Trickster Rabbit] The Trickster Rabbit is stunned and vulnerable to increased damage! All Commanders, open fire!
+  Activity_Giantships_key22 = [Trickster Rabbit] <color=#6c6600>{0}</c> stunned the Trickster Rabbit with <color=#860202>{1}</c> damage! Open fire, Commanders! ({2},{3})
+  Activity_Giantships_key23 = Resets in: {0}
+  Activity_Giantships_key24 = Stun Trigger: {0}
+  activity_des_79101431_1 = [How to Play]\nActivates each Storm Duel round. Teammates and opponents from the Storm Duel engage in two battles under different rulesets, competing for rewards.
+  activity_des_79101431_2 = [Matchup Stage]\nAllied and enemy Warzones for this event correspond to those matched in the Storm Duel.
+  activity_des_79101431_3 = [Forces Assemble]\nCommanders dispatch their Army, Navy, and Air Force troops to their respective Formations, awaiting the start of subsequent battle stages.
+  activity_des_79101431_4 = [Apex Commanders]\n1. The Commander with the highest Queue CP in each Formation is selected as that Formation's Apex, and must face challenges from all opposing Commanders.\n2. When all of an Apex Com...
+  activity_des_79101431_5 = [Forces Inspection]\n1. Once Inspection begins, the Army, Navy, and Air Force Formations march in sequence to the Inspection Point for a gauntlet-style showdown against the opposing Formations.\n2. Ea...
+  activity_excavation_key_65 = Dug
+  activity_name_79101431 = Storm Clash
+  conqueror2025_1127 = Time:
+  conqueror2025_cnc_30 = Your Warzone has not yet captured a Wasteland granting the <color=#146c24>Treasury Rewards Buff</c>.
+  conqueror2025_cnc_faq_022_2 = {0} minutes after the Neutral City battle ends, all Commanders who participated in the Neutral City Contest will receive rewards based on the occupied Neutral Cities.
+  conqueror2025_escort_train_FAQ_32 = After being defeated, the Seal Stone Train will enter a protected state for {0} minutes. You can only intercept the Train again once this protection expires.
+  conqueror2025_storm_66 = You are about to enter an enemy battlefield. Your Shield will be deactivated upon entry. The system will automatically return you to your original Warzone {0} minutes before the Storm Battlefield clas...
+  conqueror2025_storm_faq_14_2 = {0} minutes after the battle ends, individual rewards are determined by the match result and Individual Score. Participation rewards for Core Warzones and Allied Warzones are determined based on the m...
+  conqueror2025_storm_faq_17_2 = {0} minutes after the battle ends, individual rewards are determined by the match result and Individual Score, while participation rewards are determined based on the match result.
+  conqueror2025_wasteland_textui_180 = Seal Stone Protector
+  conqueror2025_wasteland_textui_181 = Storm Overlord: 
+  conqueror2025_wasteland_textui_182 = Storm's Eye Conqueror in the Local Sector: 
+  enigma_realm_team19 = Your realm squad is full.
+  get_more_march_tips_1 = Obtain from Gem Gift. Event currently unavailable.
+  get_more_march_tips_2 = Obtain from Alliance Defense. Event currently unavailable.
+  item_des_260304002 = Obtained from Storm Clash. Open it to get a random special reward.
+  item_name_260304002 = Storm Parade Chest
+  item_name_83000000 = March Limited Voucher
+  mail_content80117 = Dear Commander,\n\nThank you for participating in our exclusive VIP event! We are deeply committed to ensuring an exceptional gaming experience for every commander, and your continued support and trus...
+  mail_content_3431 = Here are the rewards you received from the Formation March Chest:
+  mail_content_3434 = Dear Commander,\nDuring the Apex Commanders stage of the Storm Clash on {0}, your Warzone claimed victory thanks to the heroic performance of Army Apex {1}. Here are your victory rewards:
+  mail_content_3435 = Dear Commander,\nDuring the Apex Commanders stage of the Storm Clash on {0}, your Warzone claimed victory thanks to the heroic performance of Navy Apex {1}. Here are your victory rewards:
+  mail_content_3436 = Dear Commander,\nDuring the Apex Commanders stage of the Storm Clash on {0}, your Warzone claimed victory thanks to the heroic performance of Air Force Apex {1}. Here are your victory rewards:
+  mail_content_3437 = Dear Commander,\nDuring the Forces Inspection stage of the Storm Clash on {0}, your Warzone claimed victory under the leadership of {1}, {2}, and {3}. Here are your victory rewards:
+  mail_content_3438 = Dear Commander,\nDuring the Apex Commanders stage of the Storm Clash on {0}, Army Apex {1} fought valiantly but was ultimately defeated. Here are the rewards earned on your behalf:
+  mail_content_3439 = Dear Commander,\nDuring the Apex Commanders stage of the Storm Clash on {0}, Navy Apex {1} fought valiantly but was ultimately defeated. Here are the rewards earned on your behalf:
+  mail_content_3440 = Dear Commander,\nDuring the Apex Commanders stage of the Storm Clash on {0}, Air Force Apex {1} fought valiantly but was ultimately defeated. Here are the rewards earned on your behalf:
+  mail_content_3441 = Dear Commander,\nDuring the Forces Inspection stage of the Storm Clash on {0}, your Warzone was unfortunately defeated. Here are your consolation rewards:
+  mail_title80117 = VIP Appreciation Gift
+  mail_title_3429 = [Storm Clash] Apex Commanders Battle Report
+  mail_title_3430 = [Storm Clash] Forces Inspection Battle Report
+  mail_title_3431 = [Storm Clash] Formation March Chest Rewards
+  mail_title_3434 = [Storm Clash] Army Apex Victory
+  mail_title_3435 = [Storm Clash] Navy Apex Victory
+  mail_title_3436 = [Storm Clash] Air Force Apex Victory
+  mail_title_3437 = [Storm Clash] Forces Inspection Victory
+  mail_title_3438 = [Storm Clash] Army Apex Defeat
+  mail_title_3439 = [Storm Clash] Navy Apex Defeat
+  mail_title_3440 = [Storm Clash] Air Force Apex Defeat
+  mail_title_3441 = [Storm Clash] Forces Inspection Defeat
+  naval_lot_dec_174 = Unlock mighty Army units by saving Ella within a time limit.
+  naval_lot_dec_241 = Unlock mighty Naval units by saving Margaretha within a time limit.
+  naval_lot_dec_241_1 = Margaretha has left, looking forward to seeing you again.
+  storm_ssemble_001 = Storm Clash - Waiting for Matchmaking
+  storm_ssemble_002 = Forces Assemble
+  storm_ssemble_003 = Apex Commanders
+  storm_ssemble_004 = Forces Inspection
+  storm_ssemble_005 = Reward Preview
+  storm_ssemble_006 = Server Time: {0}
+  storm_ssemble_007 = Local Time: {0}
+  storm_ssemble_008 = Apex Commanders Reward Preview
+  storm_ssemble_009 = The side with higher Valor in their Formation wins. Win/Loss rewards are calculated separately for each Formation.
+  storm_ssemble_010 = Formation CP Range: {0}-{1}
+  storm_ssemble_011 = Forces Inspection Reward Preview
+  storm_ssemble_012 = The Army, Navy, and Air Force Formations will each fight once. The team that wins two or more Formation battles is declared the ultimate victor.
+  storm_ssemble_013 = Rewards will be sent via mail after the stage ends.
+  storm_ssemble_014 = Allied {0} {1}
+  storm_ssemble_015 = Enemy {0} {1}
+  storm_ssemble_016 = {0} Formation
+  storm_ssemble_017 = Apex
+  storm_ssemble_018 = Inspecting
+  storm_ssemble_019 = {0} Apex
+  storm_ssemble_020 = Formation Units:
+  storm_ssemble_021 = Formation CP Range: {0}+
+  storm_ssemble_022 = Cheering Commanders
+  storm_ssemble_023 = {0} Commanders are supporting you!
+  storm_ssemble_024 = Awesome!
+  storm_ssemble_025 = {0} Formation Overview
+  storm_ssemble_026 = Battle Info
+  storm_ssemble_027 = View Lineup
+  storm_ssemble_028 = Assemble Overview
+  storm_ssemble_029 = Successful Defenses:
+  storm_ssemble_030 = Formation Status
+  storm_ssemble_031 = Initial Formation CP: {1}
+  storm_ssemble_032 = Deployable
+  storm_ssemble_033 = My Assembled Troops
+  storm_ssemble_034 = Not Deployed
+  storm_ssemble_035 = The top {0} players by deployed Queue CP will participate in the final Forces Inspection.
+  storm_ssemble_036 = Challenge
+  storm_ssemble_037 = Attack Buff
+  storm_ssemble_038 = During the Apex Commanders stage, each attack has a chance to trigger an Attack Buff.
+  storm_ssemble_039 = Trigger Chance: {0}
+  storm_ssemble_040 = Only show Local Server Reports
+  storm_ssemble_041 = Formation Info
+  storm_ssemble_042 = Apex Reports
+  storm_ssemble_043 = Inspection Reports
+  storm_ssemble_044 = Battle Status
+  storm_ssemble_045 = Once matched in Storm Duel, complete your team for Forces Assemble!
+  storm_ssemble_046 = Allied Warzones in Storm Duel will gather at the Formations to prepare for upcoming battles!
+  storm_ssemble_047 = Apex Commanders will stand before their Formations, ready to face challenges from all opponents!
+  storm_ssemble_048 = Formations will deploy in sequence for inspection!
+  storm_ssemble_049 = Matchup Stage ends in:
+  storm_ssemble_050 = Assemble Stage ends in:
+  storm_ssemble_051 = Apex Stage ends in:
+  storm_ssemble_052 = Inspection Stage ends in:
+  storm_ssemble_053 = Battle Order
+  storm_ssemble_054 = Army Apex
+  storm_ssemble_055 = Waiting Apex Commander: {0}
+  storm_ssemble_056 = Challenge ends in: {0}
+  storm_ssemble_057 = Attack Stage Countdown: {0}
+  storm_ssemble_058 = Inspection Portal
+  storm_ssemble_059 = {0} Initial CP:
+  storm_ssemble_061 = Formation March Chest
+  storm_ssemble_063 = View {0} Lineup
+  storm_ssemble_069 = 1. When all troops of an Apex Commander are defeated, 1 Valor point is consumed and all troops are fully restored.\n2. Rewards are settled independently for each Formation. At the end of the stage, th...
+  storm_ssemble_074 = This buff only takes effect during its corresponding Apex Commanders battle.
+  storm_ssemble_076 = Allied Apex Commander
+  storm_ssemble_077 = Enemy Apex Commander
+  storm_ssemble_078 = Excellent! Our Commander <color=#146c24>{1}</c> with <color=#146c24>{0}</c> Queue CP has joined the assembly!
+  storm_ssemble_079 = Warning! Enemy Commander <color=#860202>{1}</c> with <color=#860202>{0}</c> Queue CP has been spotted!
+  storm_ssemble_080 = Unstoppable! Our {0} Apex <color=#146c24>{1}</c> has defeated {2} challengers in a row!
+  storm_ssemble_081 = Attention all units! Enemy {0} Apex <color=#860202>{1}</c> has repelled {2} challengers in a row!
+  storm_ssemble_082 = Overwhelming! The enemy <color=#860202>{0} Apex</c> has been defeated, reducing the {1} Formation's Valor!
+  storm_ssemble_083 = Unbelievable! Our <color=#146c24>{0}</c> has repelled {1}'s queue with a CP of <color=#860202>{2}</c>!
+  storm_ssemble_084 = Unstoppable! Our <color=#146c24>{0}</c> has defeated <color=#146c24>{1}</c> challengers in a row!
+  storm_ssemble_085 = All hands! Enemy <color=#860202>{0}</c> has repelled {1} challengers in a row!
+  storm_ssemble_086 = Waiting for Storm Duel to complete Warzone matchmaking
+  storm_ssemble_087 = {0} Assembly Overview
+  storm_ssemble_088 = Commander: {0}
+  storm_ssemble_089 = Attack Begins
+  storm_ssemble_090 = Stage Ends
+  storm_ssemble_091 = Forces Assembling!
+  storm_ssemble_092 = Challenge the Apex Commanders!
+  storm_ssemble_094 = {0} Formation Inspection in progress!
+  storm_ssemble_095 = Tap the local Assembly Vehicle to join the Forces Assemble!
+  storm_ssemble_096 = Apex Challenge Leaderboard
+  storm_ssemble_097 = Battle starts in: {0}
+  storm_ssemble_098 = Troops Defeated:
+  storm_ssemble_099 = Total Formation CP: {0}
+  storm_ssemble_100 = Queue CP: {0}
+  storm_ssemble_101 = There is currently an attacking queue. Please try again later!
+  storm_ssemble_901 = {0} {1} is hosting a Storm Parade at ({2},{3}). Go claim your rewards!
+  storm_ssemble_902 = Apex Commanders battle is about to begin!
+  storm_ssemble_903 = Forces Inspection battle is about to begin!
+  storm_ssemble_904 = Our side's Valor is in the lead
+  storm_ssemble_905 = {0} has landed the finishing blow on {1} Apex!
+  storm_ssemble_906 = The Army Formation has marched out and dropped a Formation March Chest at ({0},{1}). Go claim your rewards!
+  storm_ssemble_907 = The Navy Formation has marched out and dropped a Formation March Chest at ({0},{1}). Go claim your rewards!
+  storm_ssemble_908 = The Air Force Formation has marched out and dropped a Formation March Chest at ({0},{1}). Go claim your rewards!
+  storm_ssemble_buff_des_01 = In this battle, the opponent's Heavy Troopers will not participate in combat.
+  storm_ssemble_buff_des_02 = In this battle, troops in half of the opponent's slots will not participate in combat. (Heavy Troopers excluded)
+  storm_ssemble_buff_des_03 = In this battle, your side's final damage is multiplied by 10.
+  storm_ssemble_buff_name_01 = Mech Disruption
+  storm_ssemble_buff_name_02 = Troop Weakening
+  storm_ssemble_buff_name_03 = Damage Boost
+  target_39702 = Easter Egg Match-up Attempts
+  throne_title_button14 = Storm Duel First Roll
+  warzone_skin_tips007 = Equipping a Warzone skin that includes a Capital Skin will automatically apply the corresponding Capital Skin.
+  warzone_skin_tips008 = Capital Skin
+  warzone_skin_tips009 = Equipping this Warzone Skin will automatically apply its associated Capital Skin.
+  warzone_skin_tips010 = Leader, do you confirm the change to this Warzone Skin? (Any associated Capital Skin will also be applied.) Once changed, it can only be updated again after {0} days.
+
+--- CHANGED KEYS ---
+  32_finals_013:
+    OLD: Warzone Appearance
+    NEW: Warzone Skin
+  32_finals_015:
+    OLD: Capital Appearance
+    NEW: Capital Skin
+  activity_excavation_key_40:
+    OLD: Each level contains one Grand Prize tile. Digging it to earn rich rewards and open the portal to the next level.
+    NEW: Each level contains one Grand Prize tile. Dig it to earn rich rewards and open the portal to the next level.
+  auction_91:
+    OLD: You can unlist it in {0}min
+    NEW: You can unlist it in {0} min
+  conqueror2025_achieve_des10:
+    OLD: Warzone possesses {1} Lv. {0} Neutral City
+    NEW: Warzone has owned {1} Lv. {0} Neutral Cities in total
+  conqueror2025_achieve_des13:
+    OLD: Warzone possesses {1} Lv. {0} Wasteland
+    NEW: Warzone has {1} Lv. {0} Wastelands at the same time
+  conqueror2025_alliance_battle_ui_001:
+    OLD: Storm Duel in progress: {0}
+    NEW: Alliance Assaults will be put on hold until the Storm Battlefield battle ends.
+  conqueror2025_cnc_faq_022:
+    OLD: After the Neutral City battle concludes, all Commanders who participated in the Neutral City Contest will receive rewards based on the occupied Neutra
+    NEW: After the Neutral City battle ends, all Commanders who participated in the Neutral City Contest will receive rewards based on the occupied Neutral Cit
+  enigma_realm_FAQ50:
+    OLD: 1-2 Ultra Enigma Beasts will refresh over time during the Enigma Battlefield.
+    NEW: 1 Ultra Enigma Beast will refresh over time during the Enigma Battlefield.
+  enigma_realm_FAQ54:
+    OLD: 1-2 Enigma Spirit Ruins will refresh over time during the Enigma Battlefield.
+    NEW: Enigma Spirit Ruins will refresh once over time during the Enigma Battlefield.
+  sand_exercise_v2_01:
+    OLD: Navy Heroes DMG to Army Overlord +
+    NEW: Navy DMG to Army Overlord +
+  sand_exercise_v2_02:
+    OLD: Air Force Heroes DMG to Navy Overlord +
+    NEW: Air Force DMG to Navy Overlord +
+  sand_exercise_v2_03:
+    OLD: Army Heroes DMG to Air Force Overlord +
+    NEW: Army DMG to Air Force Overlord +
+  warzone_skin_tips001:
+    OLD: Warzone Appearance
+    NEW: Warzone Skin
+  warzone_skin_tips002:
+    OLD: Leader, do you confirm the change to this warzone appearance? Once changed, it can only be updated again after {0} days.
+    NEW: Leader, do you confirm the change to this warzone skin? Once changed, it can only be updated again after {0} days.
+  warzone_skin_tips004:
+    OLD: Only the Leader can select and change the warzone appearance. After a successful change, a cooldown applies, and you can only change it again after th
+    NEW: Only the Leader can select and change the warzone skin. After a successful change, a cooldown applies, and you can only change it again after the cool
+  warzone_skin_tips005:
+    OLD: During major event reward distributions, the system will automatically update the warzone appearance and reset the cooldown. Once the cooldown ends, t
+    NEW: During major event reward distributions, the system will automatically update the warzone skin and reset the cooldown. Once the cooldown ends, the lea
+  warzone_skin_tips006:
+    OLD: The cooldown for changing the warzone appearance is still active. You can change it after it ends.
+    NEW: The cooldown for changing the warzone skin is still active. You can change it after it ends.

@@ -1,0 +1,80 @@
+================================================================================
+CONFIG DIFF: 8255 vs 8302
+================================================================================
+Old size: 45,439,743 chars
+New size: 45,439,755 chars
+Old tables: 1391
+New tables: 1391
+
+================================================================================
+BRAND NEW TABLES IN 8302 (0)
+================================================================================
+
+================================================================================
+TABLES REMOVED IN 8302 (0)
+================================================================================
+
+================================================================================
+TABLES WITH ROW COUNT CHANGES
+================================================================================
+
+  Total tables with row changes: 0
+
+================================================================================
+DETAILED ID DIFFS FOR PRIORITY TABLES
+================================================================================
+
+--- Mecha_skin ---
+  Total IDs in new: 4, in old: 4
+  No new IDs
+
+--- castle_face ---
+  NOT FOUND in 8302
+
+--- conqueror_2025_calendar ---
+  Total IDs in new: 28, in old: 28
+  No new IDs
+
+--- effect_buff ---
+  Total IDs in new: 2512, in old: 2512
+  No new IDs
+
+--- enigma_beast ---
+  Total IDs in new: 164, in old: 164
+  No new IDs
+
+--- hero ---
+  Total IDs in new: 200, in old: 200
+  No new IDs
+
+--- hero_skin ---
+  Total IDs in new: 295, in old: 295
+  No new IDs
+
+--- item ---
+  Total IDs in new: 11750, in old: 11750
+  No new IDs
+
+--- magic_skin ---
+  Total IDs in new: 12, in old: 12
+  No new IDs
+
+--- march_skin ---
+  Total IDs in new: 239, in old: 239
+  No new IDs
+
+--- skin ---
+  Total IDs in new: 287, in old: 287
+  No new IDs
+
+--- warzone_skin ---
+  Total IDs in new: 18, in old: 18
+  No new IDs
+
+================================================================================
+NEW ROW DETAILS FOR PRIORITY TABLES
+================================================================================
+
+================================================================================
+NEW ROW DETAILS FOR NON-PRIORITY CHANGED TABLES
+================================================================================

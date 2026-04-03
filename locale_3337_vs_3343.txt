@@ -1,0 +1,223 @@
+LOCALE DIFF: en_1.6.3337 → en_1.6.3343
+============================================================
+OLD keys: 63866
+NEW keys: 63934
+ADDED:    68
+REMOVED:  0
+CHANGED:  1
+
+============================================================
+NEW KEYS (68)
+============================================================
+
+[Activity_Giantships_key20]
+  <color=#2b3239>Dealing over </c><color=#fe6d00>{0}<color=#2b3239> damage in a single hit will stun the Trickster Rabbit!</c>
+
+[acitvity_name_81200242]
+  Trickster Rabbit
+
+[act_wishingTree_key01]
+  <outline color=#000000 width=2><color=#ffffff>{0} wished and received </c></outline><outline color=#3f3f37 width=2><color=#f7e662>{1}</c></outline>
+
+[activity_des_81200242_1]
+  1. From Monday to Saturday, a Trickster Rabbit will appear on the map from 0:00 to 23:00 (Server Time). You can challenge the boss as many times as you want each day.\n
+
+[activity_des_81200242_2]
+  2. Alliance Participation Conditions:\nTo qualify for matchmaking, an Alliance must rank within the top 10 of the current Warzone and have at least 10 active members over the past 7 days.\n
+
+[activity_des_81200242_3]
+  3. At 00:00 server time each day, Alliances will be automatically matched against a rival Alliance of similar strength. An Alliance's total score is the sum of each member's highest damage dealt to the boss that day. The Alliance with the higher score wins the daily duel.\n
+
+[activity_des_81200242_4]
+  4. The boss is immune to Chaos effects and has a different unit type weakness each day. Attacking with the corresponding unit type will deal bonus damage. Unit Weaknesses: Army (Mon/Thu), Navy (Tue/Fri), Air Force (Wed/Sat).\n
+
+[activity_des_81200242_5]
+  5. Dealing a specific amount of damage to the boss in a single attack can stun it. While stunned, all Alliance members will deal 50% more damage to it. This effect does not stack and can only be triggered once every 30 minutes.\n
+
+[activity_des_81200242_6]
+  6. If you switch Alliances, you cannot participate in this event with your new Alliance for the rest of the day. Any damage you have dealt will still count toward your previous Alliance's score. You must deal damage to the boss that day to be eligible for rewards.\n
+
+[activity_des_81200242_7]
+  7. Bonus Easter Egg: From Tuesday to Sunday, the Commander from your alliance who dealt the highest damage to the boss on the previous day will distribute Bonus Easter Eggs near the boss. Alliance members can head there to claim rewards.
+
+[activity_easter2026_key01]
+  Bonus Easter Egg
+
+[activity_easter2026_key02]
+  Bonus Easter Egg distributed by the Commander from your alliance who dealt the highest damage. Head over to claim rewards.
+
+[activity_easter2026_key03]
+  Triggered by: {0}
+
+[activity_easter2026_key04]
+  You cannot attack the boss on non-combat days.
+
+[activity_easter2026_key05]
+  Mysterious Player
+
+[activity_easter2026_key06]
+  {0}, who ranked 1st in our Alliance during yesterday's duel, has triggered a Bonus Easter Egg!
+
+[activity_name_81200207]
+  Easter Egg Wishing
+
+[activity_name_81200243]
+  Easter Egg Match-up
+
+[activity_name_81200262]
+  Easter Egg Party
+
+[activity_tips_81200207]
+  1. There are a total of 3 Easter Egg Baskets, with one unlocking each day.\n2. Before purchasing the result of a wish, you can make unlimited wishes for free.\n3. Each wish can yield a maximum of 2 advanced rewards.\n4. During the event, each wish result can only be purchased once.\n5. In advanced rewards, only one item of the same type can be obtained per wish.
+
+[activityname_81100074]
+  Easter Egg Exchange
+
+[castle_name_145]
+  Joyful Egg
+
+[conqueror2025_storm_14_2]
+  Storm Trial Matchmaking Countdown
+
+[conqueror2025_wasteland_tips_185]
+  Next round in: 
+
+[cq2025_faq_beast8]
+  Enigma Beast Candidate Conditions: Commander with 30M CP and Lv. 60 Enigma Beast with 20K CP
+
+[easter2026_bp_001]
+  After receiving all the rewards, each {0} more points gained will grant you an extra reward.\nThe Chest contains: Unit +0 Choice Chest x1, Rare Skill Chest x2
+
+[exchange_des_81300459]
+  Purchase to get the Easter Egg Match-up Lucky Bag for the "Easter Egg Match-up" event.
+
+[exchange_name_81300484]
+  Magic Egg Hat Pack
+
+[goldbrick_shop_key01]
+  Minimum payment must be greater than {0}
+
+[goldbrick_shop_key02]
+  Gold Block Store
+
+[goldbrick_shop_key03]
+  {0}% Bonus
+
+[goldbrick_shop_key04]
+  1. After a successful purchase, Top War Gold Blocks will be sent immediately to the character.\n2. Top War Gold Blocks can be used to buy in-game packs.\n3. When you use Top War Gold Blocks, you will get VIP EXP.
+
+[goldbrick_shop_key05]
+  Enter your payment amount
+
+[item_des_81000167]
+  Use in the [Easter Egg Match-up] event to play one round. Go win some amazing rewards! (After the event ends, it will be converted into Gems in the Event Reward Center.)
+
+[item_des_81000168]
+  Obtained from the "Easter Egg Match-up" event and can be used in the event's Exchange Store. (Expires after the event and can be recycled in the Item Recycle Store.)
+
+[item_des_81000169]
+  Use it to unlock Easter Egg Party event points for more rewards.
+
+[item_des_81000170]
+  Use it to get Joyful Bunny Avatar Frame (Permanent)
+
+[item_des_81000171]
+  Use it to get the Joyful Egg Nameplate (Permanent)
+
+[item_des_81000172]
+  A reward chest from the Easter Egg Match-up event. Open it to get a random special gift.
+
+[item_des_81000173]
+  A lucky reward chest from the Easter Egg Match-up event. Open it to get a random special gift.
+
+[item_des_81000177]
+  A reward chest for participating in the Trickster Rabbit. Open it to get a random special gift. Once the designated number of chests are opened, a grand prize is unlocked: Orange Universal Shard x2!
+
+[item_desc5100307]
+  Marching Queue +1 for 2 hours
+
+[item_name5100307]
+  Extra Marching Queue (2h)
+
+[item_name_81000167]
+  Easter Egg Match-up Lucky Bag
+
+[item_name_81000168]
+  Easter Egg Voucher
+
+[item_name_81000169]
+  Lucky Easter Egg
+
+[item_name_81000170]
+  Joyful Bunny Avatar Frame
+
+[item_name_81000171]
+  Joyful Egg Nameplate
+
+[item_name_8100172]
+  Easter Egg Match-up Chest
+
+[item_name_8100173]
+  Easter Egg Match-up Lucky Chest
+
+[item_name_8100177]
+  Trickster Rabbit Chest
+
+[item_name_83000001]
+  April Throb Voucher
+
+[mail_act_giantships_key5]
+  Dear Commander, you have completed an attack in the Trickster Rabbit event (rewards are sent to your Inventory).
+
+[mail_act_giantships_key6]
+  Dear Commander, you dealt {0} damage to the Boss in today's Trickster Rabbit, ranking No.{1} on the damage leaderboard. Here are your rewards:
+
+[mail_act_giantships_key7]
+  Your Alliance was victorious in today's Trickster Rabbit. Your rewards have been sent.
+
+[mail_act_giantships_key8]
+  Unfortunately, your Alliance was defeated in today's Trickster Rabbit. Your rewards have been sent.
+
+[mail_content_3442]
+  Dear Commander,\nthe following are your rewards for participating in the Gold Block Top-Up Milestone event:
+
+[mail_content_3443]
+  Dear Commander,\nthe following are your rewards for participating in the Gold Block Login event:
+
+[mail_content_3444]
+  Dear Commander,\nthe following are your rewards for participating in the Gold Block event:
+
+[mail_title_3442]
+  Gold Block Pay: Top-Up Milestone Event Reward
+
+[mail_title_3443]
+  Gold Block Pay: Login Event Reward
+
+[mail_title_3444]
+  Gold Block Pay: Web Login Reward
+
+[mail_title_81005_2]
+  [Trickster Rabbit] Attack Report
+
+[mail_title_81006_2]
+  [Trickster Rabbit] Daily Ranking Reward
+
+[mail_title_81007_2]
+  [Trickster Rabbit] Alliance Victory
+
+[mail_title_81008_2]
+  [Trickster Rabbit] Alliance Defeat
+
+[monster_desc_5400023]
+  Face off against the invading Giant Mecha-Rabbit! Deal as much damage as you can to win exclusive rewards!
+
+[monster_name5400023]
+  Trickster Rabbit
+
+============================================================
+CHANGED KEYS (1)
+============================================================
+
+[Activity_Giantships_key16]
+  OLD: Boss Stunned!
+  NEW: The boss is stunned, and the damage taken is increased by 50%.

@@ -1,0 +1,92 @@
+Locale Diff: en_1.6.3223 → en_1.6.3256
+Old: 63606 keys, New: 63633 keys
+Added: 28, Removed: 1, Changed: 16
+
+============================================================
+NEW KEYS (28)
+============================================================
+  ^--100001: No connection to the server.
+  conqueror2025_enigma_train_057: Seal Stone Train has reached the highest rarity:<color=#6d4686>Epic</color>. Refreshing again will change the rewards. Continue?
+  conqueror2025_enigma_train_058: Seal Stone Train has reached the highest rarity:<color=#bc6600>Legendary</color>. Refreshing again will change the rewards. Continue?
+  conqueror2025_storm_60_2: Garrison Duration
+  conqueror2025_storm_61_3: Damage to Guardian
+  conqueror2025_storm_64_2: Battles Won
+  conqueror_2025_report_001: Peak Performance
+  conqueror_2025_report_002: Ever Victorious
+  conqueror_2025_report_003: Heavy Hitter
+  conqueror_2025_report_004: King of Beasts
+  conqueror_2025_report_005: Fearless Defender
+  conqueror_2025_report_006: Legendary Hunter
+  decoration_1218_10: Penguin World Set Upgrade
+  decoration_1218_12: Penguin World Set Re-sale Pack
+  decoration_1218_13: Contains Penguin World Set Decorations
+  decoration_1218_5: Penguin World Set Series
+  enigma_realm_time_des_ui_007: Ended
+  enigma_realm_time_des_ui_008: In Progress
+  getmore_ui_tips_15: Tap here and instantly replenish resources with existing items!
+  item_des_20260327: Get this item by killing Dark Forces and Warhammer-4K during the time-limited event, or by completing radar missions. Use it to redeem Decoration and ...
+  item_desc_81000053_1: Use it to randomly get: 1-3 Legendary Beast Chests. Opening Legendary Beast Chest grants a random beast from the following: Lumideer, Hoveray, Galeagl...
+  item_desc_81000090_1: Use it to randomly get: 10-100 Legendary Beast Chest Shards. Opening 5 chests grants an extra 10 Legendary Beast Chest Shards. Opening Legendary Beast...
+  item_guarantee_key2623: Once your progress is full, you'll get an additional grand prize: Pickaxe x1
+  item_name_20260326: March Limited Voucher
+  item_name_20260327: Voucher Shard
+  k_id_function_027: Age Verification
+  k_id_function_028: In compliance with local laws and regulations, age verification is required to continue the game. The verification process will be securely completed ...
+  pro_381_1: Pickaxe x1
+
+============================================================
+REMOVED KEYS (1)
+============================================================
+  Enigma ^--100001: No connection to the server.
+
+============================================================
+CHANGED KEYS (16)
+============================================================
+  conqueror2025_enigma_realm_FAQ_003:
+    OLD: Commanders from the top 2 Warzones on the Local Sector will receive extra rewards when entering any ...
+    NEW: Commanders from the top 2 Warzones in the Local Sector will receive extra rewards when entering any ...
+  conqueror2025_enigma_realm_FAQ_003_new:
+    OLD: Commanders from the top {0} Warzones on the Local Sector will receive extra rewards when entering an...
+    NEW: Commanders from the top {0} Warzones in the Local Sector will receive extra rewards when entering an...
+  dailyTask_name007:
+    OLD: Buy items in Item Store {0} time(s)
+    NEW: Buy {0} item in Item Store
+  dailyTask_name009:
+    OLD: Use Speed-up {0} time(s)
+    NEW: Use Speed-up {0} time
+  dailyTask_name031:
+    OLD: Complete {0} Radar missions
+    NEW: Complete {0} Radar mission
+  dailyTask_name033:
+    OLD: Recruit hero {0} time(s) (any recruit)
+    NEW: Recruit hero {0} time (any recruit)
+  dailyTask_name037:
+    OLD: Use Hero EXP {0} time(s)
+    NEW: Use Hero EXP {0} time
+  dailyTask_name038:
+    OLD: Gold Harvester Quick Collect {0} time(s)
+    NEW: Gold Harvester Quick Collect {0} time
+  dailyTask_name041:
+    OLD: Request Help from Allies {0} time(s)
+    NEW: Request Help from Allies {0} time
+  dailyTask_name042:
+    OLD: Truck Transport {0} time(s)
+    NEW: Truck Transport {0} times
+  dailyTask_name043:
+    OLD: Train {0} units
+    NEW: Train {0} unit
+  wasteland_desc_FAQ_022:
+    OLD: During the Contest Stage, when the enemy's Wasteland Mothership is breached, a Wasteland Chest will ...
+    NEW: During the Contest Stage, when the enemy's Wasteland Mothership is breached, a Wasteland Chest will ...
+  wishing_tree_name1:
+    OLD: Lucky Wishing Tree
+    NEW: Fortune Wishing
+  wishing_tree_name2:
+    OLD: Wealth Wishing Tree
+    NEW: Health Wishing
+  wishing_tree_name3:
+    OLD: Happiness Wishing Tree
+    NEW: Happiness Wishing
+  wishing_tree_tips14:
+    OLD: Wealth
+    NEW: Health

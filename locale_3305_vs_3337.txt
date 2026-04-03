@@ -1,0 +1,278 @@
+LOCALE DIFF: en_1.6.3305 → en_1.6.3337
+============================================================
+OLD keys: 63793
+NEW keys: 63866
+ADDED:    73
+REMOVED:  0
+CHANGED:  11
+
+============================================================
+NEW KEYS (73)
+============================================================
+
+[activityname_1640]
+  Ice Port Pack
+
+[activityname_1641]
+  Ice Port Exchange
+
+[building_desc_54571]
+  Surprise! A true Easter egg is here!
+
+[building_desc_54586]
+  The lighting in a burrow just can't compare to an eggshell house!
+
+[building_desc_54601]
+  Please offer a carrot as tribute!
+
+[building_name_54571]
+  Magic Egg Hat
+
+[building_name_54586]
+  Bunny Eggshell House
+
+[building_name_54601]
+  Bunny Colossus
+
+[conqueror2025_1128]
+  Refreshes in: 
+
+[conqueror2025_1301]
+  The side with the higher roll picks first this round
+
+[conqueror2025_1302]
+  Waiting to roll...
+
+[conqueror2025_1303_button]
+  Roll
+
+[conqueror2025_1304]
+  Emoji limit reached.
+
+[conqueror2025_1305_notice]
+  Another Official in this Warzone is currently rolling. Please wait for the result to update.
+
+[conqueror2025_1306]
+  Sent
+
+[conqueror2025_1307]
+  You've already sent this emoji!
+
+[conqueror2025_FAQ18]
+  During the entire event, each Commander can only receive the Legendary Beast Choice Chest (Limited) twice from the Treasury distribution.
+
+[conqueror2025_enigma_realm_076]
+  Waiting for team-up to open
+
+[conqueror2025_enigma_realm_077]
+  This round of the Realm has ended
+
+[conqueror2025_enigma_realm_078]
+  You already have a squad.
+
+[conqueror2025_enigma_realm_079]
+  1. Seal Stone Realms will open in the highest-level Neutral Cities of the top {0} Warzones in this Sector.\n2. The Realm level is determined by the highest-level Neutral City occupied by the Warzone.\n3. In Quick Team-Up mode, you can join a system-recommended team within your Warzone without the Leader's approval.\n4. You can only use Quick Team-Up under one identity (Normal or Master Thief) at a time.
+
+[conqueror2025_enigma_realm_080]
+  1. Commanders can only participate in the Local Sector Realm Battlefield or Master Thief Battlefield once per round.\n2. In Quick Team-Up mode, you can join a system-recommended team within your Warzone without the Leader's approval.\n3. You can only use Quick Team-Up under one identity (Normal or Master Thief) at a time.
+
+[conqueror2025_enigma_realm_081]
+  The Realm has closed. Squad actions unavailable.
+
+[conqueror2025_enigma_realm_FAQ_016]
+  In Quick Team-Up mode, you can join a system-recommended team within your Warzone without the Leader's approval.
+
+[conqueror2025_enigma_realm_FAQ_017]
+  You can only use Quick Team-Up under one identity (Normal or Master Thief) at a time.
+
+[conqueror2025_enigma_train_notice_027]
+  </color><outline color=#000000 width=3><color=#ffffff>You are withdrawing your invitation to <color=#69D2F3>{0}</color>\nConfirm?
+
+[conqueror2025_enigma_train_notice_028]
+  Boarding ends in <color=#146c2>{0}</c>.
+
+[conqueror2025_enigma_train_notice_030]
+  Confirm to withdraw the invitation?\nYou can still invite your ally as a Special Passenger before departure.
+
+[conqueror2025_enigma_train_notice_031]
+  Invitation withdrawn. Please invite the Special Passenger as soon as possible before departure.
+
+[conqueror2025_enigma_train_notice_032]
+  Invitation withdrawn.
+
+[conqueror2025_enigma_train_notice_033]
+  Seal Stone Train has arrived.
+
+[conqueror2025_enigma_train_notice_034]
+  Your ally has accepted the invitation, and you cannot withdraw it.
+
+[conqueror2025_enigma_train_notice_035]
+  The invitation to the ally has expired and cannot be withdrawn.
+
+[conqueror2025_enigma_train_ui_024]
+  Withdraw Invitation
+
+[conqueror2025_enigma_train_ui_025]
+  Withdraw
+
+[conqueror2025_enigma_train_ui_026]
+  Withdrawn
+
+[cq2025_faq_storm9]
+  Before selecting an Allied Warzone, the Core Warzones must roll a die to determine who picks first. A random number from 1 to 99 will be generated, and the side with the higher roll gets the first pick. If a side fails to roll within the time limit, the opponent automatically receives the first pick. If neither side rolls, the Blue side will pick first.
+
+[item_des_38000268]
+  Use it to get the base skin: Snowfall Bay (Permanent)
+
+[item_des_38000269]
+  Use it to get the base skin: Ice Port (Permanent)
+
+[item_des_38000270]
+  Use it to get the marching queue skin: Cruiser Crab (Permanent)
+
+[item_des_38000271]
+  Use it to redeem/upgrade the Ice Port themed skins and other great rewards during the event (the item will no longer have any effect after the event).
+
+[item_des_38000274]
+  Use it to get the base skin: Easter Egg House (Permanent)
+
+[item_des_38000275]
+  Use it to get the base skin: Bunny House (Permanent)
+
+[item_des_38000276]
+  Use it to get the marching queue skin: Carrot Roadster (Permanent)
+
+[item_des_38006100]
+  Use it to get the 30-day limited dynamic avatar - Galactic Explorer
+
+[item_des_38006101]
+  Use it to get the 14-day limited dynamic avatar - Galactic Explorer
+
+[item_des_38006102]
+  Use it to get the 7-day limited dynamic avatar - Galactic Explorer
+
+[item_des_38006103]
+  Use it to get the 3-day limited dynamic avatar - Galactic Explorer
+
+[item_des_54002118]
+  Surprise! A true Easter egg is here!\nPlacing on site:\nAll units Damage increase. 2.5% at Lv. 1, and +2.5% for each level increased.\nMaximum number of stacks: 1
+
+[item_des_54002119]
+  The lighting in a burrow just can't compare to an eggshell house!\nPlacing on site:\nAll units Defense increase. 1% at Lv. 1, and +1% for each level increased.\nMaximum number of stacks: 1
+
+[item_des_54002120]
+  Please offer a carrot as tribute!\nPlacing on site:\nAll units Attack increase. 5% at Lv. 1, and +5% for each level increased.\nMaximum number of stacks: 1
+
+[item_name_38000268]
+  Snowfall Bay (Permanent)
+
+[item_name_38000269]
+  Ice Port (Permanent)
+
+[item_name_38000270]
+  Cruiser Crab (Permanent)
+
+[item_name_38000271]
+  Ice Port Voucher
+
+[item_name_38000272]
+  Ice Port Chest
+
+[item_name_38000274]
+  Easter Egg House (Permanent)
+
+[item_name_38000275]
+  Bunny House (Permanent)
+
+[item_name_38000276]
+  Carrot Roadster (Permanent)
+
+[item_name_38006100]
+  Galactic Explorer (30 days)
+
+[item_name_38006101]
+  Galactic Explorer (14 days)
+
+[item_name_38006102]
+  Galactic Explorer (7 days)
+
+[item_name_38006103]
+  Galactic Explorer (3 days)
+
+[mail_content_81037]
+  Commander,\nYou have claimed the Bonus Easter Egg distributed by {0}. Contents are as follows (rewards are sent to your Inventory):
+
+[mail_title_81037]
+  Bonus Easter Egg Claim Notice
+
+[march_skin_name252]
+  Cruiser Crab
+
+[march_skin_name260]
+  Carrot Roadster
+
+[pro_386_1]
+  Orange Universal Shard x2
+
+[skin_name_1994000]
+  Snowfall Bay
+
+[skin_name_1995000]
+  Ice Port
+
+[skin_name_1996000]
+  Easter Egg House
+
+[skin_name_1997000]
+  Bunny House
+
+[storm_ssemble_102]
+  There is currently a queue for claiming rewards. Please try again later!
+
+============================================================
+CHANGED KEYS (11)
+============================================================
+
+[BountyQuest021]
+  OLD: Military ticket
+  NEW: Military Ticket
+
+[conqueror2025_wasteland_textui_139]
+  OLD: Earn the title by achieving the highest merit across all rounds of the Storm Duel battles.
+  NEW: Core Warzone Commander earns the title by achieving the highest merit across all rounds of the Storm Duel.
+
+[conqueror2025_wasteland_textui_140]
+  OLD: Earn the title by scoring the most Individual Score across all rounds of the Storm Duel battles.
+  NEW: Core Warzone Commander earns the title by scoring the most Individual Score across all rounds of the Storm Duel.
+
+[conqueror2025_wasteland_textui_141]
+  OLD: Earn the title by killing the most Valhalla units across all rounds of the Storm Duel battles.
+  NEW: Core Warzone Commander earns the title by killing the most Valhalla units across all rounds of the Storm Duel.
+
+[conqueror_reward16]
+  OLD: 1. The Merit Store's item availability will reset periodically. All Merits will be cleared after the event, so remember to use them in time.\n2. During a battle with an opposing commander, you can earn Merits by killing enemy units or losing your own units.\n3. You won't earn Merits from units below level 60, battles with opposing commanders who are 5 levels below your level, or if your injured units are 5 levels lower than your commander's level.
+  NEW: 1. The Merit Store's item availability will refresh periodically. Upon refresh, any unused purchase limits for items will accumulate. All Merits will be cleared after the event, so remember to use them in time.\n2. During a battle with an opposing commander, you can earn Merits by killing enemy units or losing your own units.\n3. You won't earn Merits from units below level 60, battles with opposing commanders who are 5 levels below your level, or if your injured units are 5 levels lower than your commander's level.
+
+[item_name550003]
+  OLD: Class Talent Speed-up (8 h)
+  NEW: Class Talent Speed-up (8h)
+
+[repair_desc_10003]
+  OLD: Hall of Valhalla unit
+  NEW: Valhalla Unit
+
+[storm_ssemble_001]
+  OLD: Storm Clash - Waiting for Matchmaking
+  NEW: Matchup
+
+[storm_ssemble_028]
+  OLD: Assemble Overview
+  NEW: Assembly Overview
+
+[storm_ssemble_050]
+  OLD: Assemble Stage ends in:
+  NEW: Assembly Stage ends in:
+
+[storm_ssemble_055]
+  OLD: Waiting Apex Commander: {0}
+  NEW: Challenge begins in: {0}
