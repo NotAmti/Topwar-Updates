@@ -1,0 +1,635 @@
+================================================================================
+TOP WAR UPDATE — April 10, 2026
+Config: 8568 → 8676  |  Locale EN: 3384 → 3413
+================================================================================
+
+████████████████████████████████████████████████████████████████████████████████
+SECTION 1: CONFIG DIFF (8568 → 8676)
+████████████████████████████████████████████████████████████████████████████████
+
+================================================================================
+CONFIG DIFF: 8568 vs 8676
+================================================================================
+Old size: 45,554,725 chars
+New size: 45,617,978 chars
+Old tables: 1391
+New tables: 1392
+
+================================================================================
+BRAND NEW TABLES IN 8676 (1)
+================================================================================
+  goldbrick_shop_nation: 1 data rows, columns: ['id', 'platform', 'currency', 'nation']
+
+================================================================================
+TABLES REMOVED IN 8676 (0)
+================================================================================
+
+================================================================================
+TABLES WITH ROW COUNT CHANGES
+================================================================================
+  alliance_information: 167 -> 173 (+6)
+  battle_news: 56 -> 188 (+132)
+  data_config: 4657 -> 4659 (+2)
+  doubleBP_para: 271 -> 273 (+2)
+  dress_headframe: 158 -> 159 (+1)
+  effect_buff: 2512 -> 2544 (+32) *** PRIORITY ***
+  enigma_realm_boss: 90 -> 87 (-3)
+  exchange_page: 15 -> 16 (+1)
+  fight_report_from_show: 98 -> 99 (+1)
+  guide_activity: 3502 -> 3503 (+1)
+  hero: 200 -> 202 (+2) *** PRIORITY ***
+  hero_equip_model: 342 -> 378 (+36)
+  hero_skill: 571 -> 575 (+4)
+  hero_skill_key_id: 364 -> 383 (+19)
+  infinite_gift_group: 3942 -> 3957 (+15)
+  item: 11771 -> 11842 (+71) *** PRIORITY ***
+  item_guarantee: 61 -> 62 (+1)
+  mail: 894 -> 910 (+16)
+  march_skin: 239 -> 245 (+6) *** PRIORITY ***
+  monster: 6303 -> 6304 (+1)
+  monster_group: 351 -> 352 (+1)
+  probability: 363 -> 364 (+1)
+  pve_monster: 10706 -> 10707 (+1)
+  reward: 53581 -> 53633 (+52)
+  video_activity: 243 -> 245 (+2)
+  ws_act_season_reward: 1495 -> 1615 (+120)
+
+  Total tables with row changes: 26
+
+================================================================================
+DETAILED ID DIFFS FOR PRIORITY TABLES
+================================================================================
+
+--- Mecha_skin ---
+  Total IDs in new: 4, in old: 4
+  No new IDs
+
+--- castle_face ---
+  NOT FOUND in 8676
+
+--- conqueror_2025_calendar ---
+  Total IDs in new: 28, in old: 28
+  No new IDs
+
+--- effect_buff ---
+  Total IDs in new: 2544, in old: 2512
+  NEW IDs (32): ['992701', '992702', '992703', '992704', '992705', '992706', '992707', '992708', '992709', '992710', '992711', '992712', '992713', '992714', '992715', '992716', '992717', '992718', '992719', '992901', '992902', '992903', '992904', '992905', '992906', '992907', '992908', '992909', '992910', '992911', '992912', '992913']
+
+--- enigma_beast ---
+  Total IDs in new: 164, in old: 164
+  No new IDs
+
+--- hero ---
+  Total IDs in new: 202, in old: 200
+  NEW IDs (2): ['174', '338']
+
+--- hero_skin ---
+  Total IDs in new: 295, in old: 295
+  No new IDs
+
+--- item ---
+  Total IDs in new: 11842, in old: 11771
+  NEW IDs (71): ['260304002', '38001174', '38001338', '38002174', '38002338', '38003531', '38003532', '38003533', '38003534', '38003535', '38003536', '38003537', '38003538', '38003539', '38003540', '38003541', '38003542', '38003543', '38003544', '38003545', '38003546', '38003547', '38003548', '38003549', '38003550', '44001001', '44001002', '44001003', '44001004', '44001005', '44001006', '44001007', '44001008', '44001009', '44001010', '44001011', '44001012', '44001013', '44001014', '44001015', '44001016', '44001017', '44001018', '44001019', '44001020', '44001021', '44001022', '44001023', '44001024', '44001025']...
+
+--- magic_skin ---
+  Total IDs in new: 12, in old: 12
+  No new IDs
+
+--- march_skin ---
+  Total IDs in new: 245, in old: 239
+  NEW IDs (6): ['253', '254', '255', '256', '257', '258']
+
+--- skin ---
+  Total IDs in new: 289, in old: 289
+  No new IDs
+
+--- warzone_skin ---
+  Total IDs in new: 18, in old: 18
+  No new IDs
+
+================================================================================
+NEW ROW DETAILS FOR PRIORITY TABLES
+================================================================================
+
+--- effect_buff: 32 new rows ---
+  Headers: ['id', 'string', 'category', 'type', 'value_type', 'op', 'target', 'paraType1', 'para1', 'paraType2', 'para2', 'paraType3', 'para3', 'paraType4', 'para4', 'icon', 'battle_type', 'time_limit', 'effective_conditions', 'once_limit', 'group', 'is_minus', 'targetBuffType', 'only_effect', 'sustained_buff', 'entry_type', 'have_exclusive_buff', 'order', 'buff_divide', 'buff_type_group', 'FightType_show', 'normal_battle_void', 'choose_type', 'choose_random_type', 'choose_positions', 'choose_priority_num', 'choose_all', 'choose_att_times', 'choose_buff_ids', 'choose_side', 'skill_power_id', 'replace_common_attack', 'debuff_para_time', 'skill_point', 'sustained_buff_mecha', 'choose_att_random_times', 'buff_trigger_id', 'paraTypeAdd1', 'paraAdd1', 'paraTypeAdd2', 'paraAdd2', 'once_buff_mecha', 'hp_effect', 'superposition', 'equip_skill_level_limit', 'random_att_times', 'add_fight_log_when_cost_use_time', 'cost_use_time_type', 'replace_buff', 'decorative_buff_order', 'decorative_buff_group', 'activity_inope']
+  id=992701 | string= | category=1 | type=183 | value_type=10000 | op=0 | target=0 | paraType1=ArmyType | para1=301 | paraType2= | para2= | paraType3=
+  id=992702 | string= | category=1 | type=1239 | value_type=10000 | op=0 | target=0 | paraType1=ArmyType | para1=301 | paraType2= | para2= | paraType3=
+  id=992703 | string= | category=1 | type=145 | value_type=10000 | op=0 | target=0 | paraType1=SkillId | para1=10338 | paraType2= | para2= | paraType3=
+  id=992704 | string= | category=1 | type=165 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992705 | string= | category=1 | type=824 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992706 | string= | category=1 | type=145 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992707 | string= | category=1 | type=173 | value_type=10000 | op=0 | target=0 | paraType1=IntegerType | para1=10338 | paraType2= | para2= | paraType3=
+  id=992708 | string= | category=1 | type=323 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992709 | string= | category=1 | type=1239 | value_type=10000 | op=0 | target=0 | paraType1=ArmyType | para1=301 | paraType2= | para2= | paraType3=
+  id=992710 | string= | category=1 | type=145 | value_type=10000 | op=0 | target=0 | paraType1=SkillId | para1=10338 | paraType2= | para2= | paraType3=
+  id=992711 | string= | category=1 | type=165 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992712 | string= | category=1 | type=824 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992713 | string= | category=1 | type=145 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992714 | string= | category=1 | type=183 | value_type=10000 | op=0 | target=0 | paraType1=ArmyType | para1=301 | paraType2= | para2= | paraType3=
+  id=992715 | string= | category=1 | type=1239 | value_type=10000 | op=0 | target=0 | paraType1=ArmyType | para1=301 | paraType2= | para2= | paraType3=
+  id=992716 | string= | category=1 | type=145 | value_type=10000 | op=0 | target=0 | paraType1=SkillId | para1=10338 | paraType2= | para2= | paraType3=
+  id=992717 | string= | category=1 | type=824 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992718 | string= | category=1 | type=145 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992719 | string= | category=1 | type=165 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992901 | string= | category=1 | type=183 | value_type=10000 | op=0 | target=0 | paraType1=ArmyType | para1=101 | paraType2= | para2= | paraType3=
+  id=992902 | string= | category=1 | type=333 | value_type=10000 | op=0 | target=0 | paraType1=ArmyType | para1=101 | paraType2= | para2= | paraType3=
+  id=992903 | string= | category=1 | type=892 | value_type=10000 | op=0 | target=1 | paraType1=BuffType | para1=843 | paraType2= | para2= | paraType3=
+  id=992904 | string= | category=1 | type=173 | value_type=10000 | op=0 | target=0 | paraType1=IntegerType | para1=10174 | paraType2= | para2= | paraType3=
+  id=992905 | string= | category=1 | type=323 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992906 | string= | category=1 | type=1246 | value_type=10000 | op=0 | target=1 | paraType1=ArmyType | para1=101 | paraType2=SkillId | para2=10174 | paraType3=
+  id=992907 | string= | category=1 | type=824 | value_type=10000 | op=0 | target=0 | paraType1=ArmyType | para1=101 | paraType2= | para2= | paraType3=
+  id=992908 | string= | category=1 | type=843 | value_type=10000 | op=0 | target=0 | paraType1= | para1= | paraType2= | para2= | paraType3=
+  id=992909 | string= | category=1 | type=892 | value_type=10000 | op=0 | target=1 | paraType1=BuffType | para1=843 | paraType2= | para2= | paraType3=
+  id=992910 | string= | category=1 | type=333 | value_type=10000 | op=0 | target=0 | paraType1=ArmyType | para1=101 | paraType2= | para2= | paraType3=
+  id=992911 | string= | category=1 | type=1246 | value_type=10000 | op=0 | target=1 | paraType1=ArmyType | para1=101 | paraType2=SkillId | para2=10174 | paraType3=
+  ... and 2 more rows
+
+--- hero: 2 new rows ---
+  Headers: ['id', 'name', 'desc', 'label', 'hero_type', 'skillDesc', 'fragmentsNumber', 'quality', 'type', 'war', 'warAdd', 'def', 'defAdd', 'command', 'upStar1', 'upStar2', 'upStar3', 'upStar4', 'skill', 'source', 'hero_icon', 'icon_harmony', 'hero_tachie', 'hero_tachie_cn', 'black_hero_icon', 'black_hero_name', 'backGround', 'recommendedSkill', 'is_show', 'show_hero_id', 'exclude', 'plat', 'jp_des', 'get_show', 'time', 'endtime', 'timeType', 'skin', 'active_skill', 'skin_use', 'exclude_item', 'bg_img', 'is_link_hero', 'cn_idle_name', 'idle_name', 'skintime', 'skinendtime', 'skinitemid', 'idle_action_control', 'new_active_skill', 'hero_ui_effect', 'land_fight_scale', 'exclusive', 'upgrade', 'hero_cap_skill_group_id', 'hero_cap_skill_des', 'can_show', 'hero_cap_sp_type', 'hero_cap_sp_parma', 'exclusive_star', 'server_show_number', 'server_time_show', 'position_label', 'hero_open_advanced', 'initial_advanced_level', 'skill_act_source', 'hero_change_lv', 'hero_change_need', 'hero_change_server_num', 'hero_change_initial_id', 'hero_change_id', 'open_change_time', 'battle_skill_icon', 'battle_skill_tachie', 'plat_ignore', 'is_show_fury', 'exclusive_skill_param', 'basic_skill_param', 'skillDesc_numerical_parameters', 'interface_switch', 'try_out', 'hero_illustration', 'hero_picture', 'hero_illustration_reward', 'army_type', 'new_upStar1', 'new_upStar2', 'new_upStar3', 'new_upStar4', 'exclusive_skill', 'normal_skills', 'get_hero_ui_offset', 'hero_spine_ui_offset']
+  id=174 | name=hero_name174 | desc=hero_desc174 | label=hero_label174 | hero_type=0 | skillDesc=sim_skill_desc10174_1,sim_skill_desc10174_2,sim_skill_desc10174_3 | fragmentsNumber=10 | quality=5 | type=1 | war=470 | warAdd=94 | def=130
+  id=338 | name=hero_name338 | desc=hero_desc338 | label=hero_label338 | hero_type=2 | skillDesc=sim_skill_desc10338_1,sim_skill_desc10338_3 | fragmentsNumber=10 | quality=5 | type=1 | war=436 | warAdd=87 | def=164
+
+--- item: 71 new rows ---
+  Headers: ['id', 'group', 'type', 'type_open', 'filter_type', 'quality', 'name', 'name_with_para', 'desc', 'bi_group', 'bi_system', 'para1', 'para1_v1', 'para2', 'overlying_type', 'bag_type', 'bag_use', 'obtain_id', 'required_level', 'icon_text', 'level', 'effect', 'last_rounds', 'icon', 'icon_harmony', 'postpone_time', 'buffSource', 'max_num', 'treasurekey_para', 'item_gain', 'obtain_id_v1', 'obtain_id_v2', 'replace_id', 'word_suffix', 'delete_data', 'delete_true', 'end_time', 'order', 'special_effects', 'auto_use', 'cab_use', 'probability_use', 'jump_prop', 'get_source', 'para3', 'para4', 'ui_route', 'big_icon_route', 'undeletable', 'item_source', 'big_icon', 'use_condition', 'use_condition_para', 'use_condition_tips', 'daily_max', 'use_max', 'ava_use', 'hero_new_desc', 'item_new_preview', 'item_new_probability', 'item_search', 'item_transfer_num_limit']
+  id=38001174 | group=38001174 | type=46 | type_open= | filter_type=0 | quality=5 | name=item_name38001174 | name_with_para= | desc=item_desc38001174 | bi_group=英雄专属技能 | bi_system=英雄 | para1=38003531
+  id=38002174 | group=38002174 | type=31 | type_open= | filter_type=0 | quality=5 | name=item_name38002174 | name_with_para= | desc=item_desc38002174 | bi_group=英雄碎片 | bi_system=英雄 | para1=174
+  id=38003531 | group=38003531 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20764 | name_with_para= | desc=new_skill_desc20764 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20764
+  id=38003532 | group=38003531 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20764 | name_with_para= | desc=new_skill_desc20764 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20764
+  id=38003533 | group=38003531 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20764 | name_with_para= | desc=new_skill_desc20764 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20764
+  id=38003534 | group=38003531 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20764 | name_with_para= | desc=new_skill_desc20764 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20764
+  id=38003535 | group=38003531 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20764 | name_with_para= | desc=new_skill_desc20764 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20764
+  id=38003536 | group=38003531 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20764 | name_with_para= | desc=new_skill_desc20764 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20764
+  id=38003537 | group=38003531 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20764 | name_with_para= | desc=new_skill_desc20764 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20764
+  id=38003538 | group=38003531 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20764 | name_with_para= | desc=new_skill_desc20764 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20764
+  id=38003539 | group=38003531 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20764 | name_with_para= | desc=new_skill_desc20764 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20764
+  id=38003540 | group=38003531 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20764 | name_with_para= | desc=new_skill_desc20764 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20764
+  id=38001338 | group=38001338 | type=46 | type_open= | filter_type=0 | quality=5 | name=item_name38001338 | name_with_para= | desc=item_desc38001338 | bi_group=英雄专属技能 | bi_system=英雄 | para1=38003541
+  id=38002338 | group=38002338 | type=31 | type_open= | filter_type=0 | quality=5 | name=item_name38002338 | name_with_para= | desc=item_desc38002338 | bi_group=英雄碎片 | bi_system=英雄 | para1=338
+  id=38003541 | group=38003541 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20765 | name_with_para= | desc=new_skill_desc20765 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20765
+  id=38003542 | group=38003541 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20765 | name_with_para= | desc=new_skill_desc20765 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20765
+  id=38003543 | group=38003541 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20765 | name_with_para= | desc=new_skill_desc20765 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20765
+  id=38003544 | group=38003541 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20765 | name_with_para= | desc=new_skill_desc20765 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20765
+  id=38003545 | group=38003541 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20765 | name_with_para= | desc=new_skill_desc20765 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20765
+  id=38003546 | group=38003541 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20765 | name_with_para= | desc=new_skill_desc20765 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20765
+  id=38003547 | group=38003541 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20765 | name_with_para= | desc=new_skill_desc20765 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20765
+  id=38003548 | group=38003541 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20765 | name_with_para= | desc=new_skill_desc20765 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20765
+  id=38003549 | group=38003541 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20765 | name_with_para= | desc=new_skill_desc20765 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20765
+  id=38003550 | group=38003541 | type=42 | type_open= | filter_type=0 | quality=5 | name=skill_name20765 | name_with_para= | desc=new_skill_desc20765 | bi_group=英雄专属技能 | bi_system=英雄 | para1=20765
+  id=260304002 | group=260304002 | type=17 | type_open= | filter_type=3 | quality=5 | name=item_name_260304002 | name_with_para= | desc=item_des_260304002 | bi_group=其他 | bi_system=其他 | para1=79270111
+  id=81000189 | group=159 | type=2903 | type_open= | filter_type=6 | quality=5 | name=item_name_81000189 | name_with_para= | desc=item_des_81000189 | bi_group=头像框 | bi_system=外观 | para1=30
+  id=81000190 | group=159 | type=2903 | type_open= | filter_type=6 | quality=5 | name=item_name_81000190 | name_with_para= | desc=item_des_81000190 | bi_group=头像框 | bi_system=外观 | para1=15
+  id=81000191 | group=159 | type=2903 | type_open= | filter_type=6 | quality=5 | name=item_name_81000191 | name_with_para= | desc=item_des_81000191 | bi_group=头像框 | bi_system=外观 | para1=-1
+  id=44001001 | group=44001001 | type=211 | type_open= | filter_type=1 | quality=5 | name=item_name_44001001 | name_with_para= | desc=item_desc_44001001 | bi_group=英雄装备 | bi_system=英雄装备 | para1=20001
+  id=44001002 | group=44001002 | type=211 | type_open= | filter_type=1 | quality=5 | name=item_name_44001002 | name_with_para= | desc=item_desc_44001001 | bi_group=英雄装备 | bi_system=英雄装备 | para1=20002
+  ... and 41 more rows
+
+--- march_skin: 6 new rows ---
+  Headers: ['id', 'anim', 'prefab', 'sale_btn', 'get_pram', 'fragments_number', 'name', 'desc', 'equip_buff', 'own_buff', 'ui_cell_offset', 'ui_main_offset', 'is_show', 'is_temporarily', 'plat', 'exclude', 'plat_show', 'time', 'endtime', 'timeType', 'order', 'display_text', 'icon', 'plat_ignore', 'march_line_show', 'no_rotation_angle', 'server_show_number', 'server_time_show', 'power', 'ultimate_skin_frame', 'skin_bind_id', 'skin_bind_effect', 'skin_bind_fusion', 'skin_bind_switch']
+  id=253 | anim=ea_prefab/world/march/prefabWorldMarch_253 | prefab= | sale_btn=0 | get_pram= | fragments_number=10 | name=march_skin_name92 | desc=march_skin_desc92 | equip_buff= | own_buff= | ui_cell_offset=0,20,1 | ui_main_offset=25,-10,1
+  id=254 | anim=ea_prefab/world/march/prefabWorldMarch_254 | prefab= | sale_btn=0 | get_pram= | fragments_number=10 | name=march_skin_name92 | desc=march_skin_desc92 | equip_buff= | own_buff= | ui_cell_offset=0,20,1 | ui_main_offset=25,-10,1
+  id=255 | anim=ea_prefab/world/march/prefabWorldMarch_255 | prefab= | sale_btn=0 | get_pram= | fragments_number=10 | name=march_skin_name92 | desc=march_skin_desc92 | equip_buff= | own_buff= | ui_cell_offset=0,20,1 | ui_main_offset=25,-10,1
+  id=256 | anim=ea_prefab/world/march/prefabWorldMarch_256 | prefab= | sale_btn=0 | get_pram= | fragments_number=10 | name=march_skin_name92 | desc=march_skin_desc92 | equip_buff= | own_buff= | ui_cell_offset=0,20,1 | ui_main_offset=25,-10,1
+  id=257 | anim=ea_prefab/world/march/prefabWorldMarch_257 | prefab= | sale_btn=0 | get_pram= | fragments_number=10 | name=march_skin_name92 | desc=march_skin_desc92 | equip_buff= | own_buff= | ui_cell_offset=0,20,1 | ui_main_offset=25,-10,1
+  id=258 | anim=ea_prefab/world/march/prefabWorldMarch_258 | prefab= | sale_btn=0 | get_pram= | fragments_number=10 | name=march_skin_name92 | desc=march_skin_desc92 | equip_buff= | own_buff= | ui_cell_offset=0,20,1 | ui_main_offset=25,-10,1
+
+================================================================================
+NEW ROW DETAILS FOR NON-PRIORITY CHANGED TABLES
+================================================================================
+
+--- alliance_information: 6 new rows (was 167, now 173) ---
+  Headers: ['id', 'news_open', 'channel', 'type', 'sub_name', 'text', 'sub_color', 'headline_weight', 'headline_life', 'news_source', 'dialog_show', 'news_type', 'main_UI_show']
+  id=617 | news_open=1 | channel=1 | type=0 | sub_name=activity_name_79101431 | text=storm_ssemble_950 | sub_color=mark_AllianceRecord1 | headline_weight=0 | headline_life= | news_source=0
+  id=618 | news_open=1 | channel=1 | type=0 | sub_name=activity_name_79101431 | text=storm_ssemble_951 | sub_color=mark_AllianceRecord1 | headline_weight=0 | headline_life= | news_source=0
+  id=619 | news_open=1 | channel=1 | type=0 | sub_name=activity_name_79101431 | text=storm_ssemble_952 | sub_color=mark_AllianceRecord1 | headline_weight=0 | headline_life= | news_source=0
+  id=620 | news_open=1 | channel=1 | type=0 | sub_name=activity_name_79101431 | text=storm_ssemble_906 | sub_color=mark_AllianceRecord1 | headline_weight=0 | headline_life= | news_source=0
+  id=621 | news_open=1 | channel=1 | type=0 | sub_name=activity_name_79101431 | text=storm_ssemble_907 | sub_color=mark_AllianceRecord1 | headline_weight=0 | headline_life= | news_source=0
+  id=622 | news_open=1 | channel=1 | type=0 | sub_name=activity_name_79101431 | text=storm_ssemble_908 | sub_color=mark_AllianceRecord1 | headline_weight=0 | headline_life= | news_source=0
+
+--- battle_news: 132 new rows (was 56, now 188) ---
+  Headers: ['id', 'act_id', 'group', 'type', 'para', 'para2', 'show_player', 'battle_news_key', 'battle_news_banner']
+  id=59 | act_id=79101431 | group=2 | type=1 | para=10 | para2= | show_player=1 | battle_news_key=storm_ssemble_903 | battle_news_banner=
+  id=60 | act_id=79101431 | group=2 | type=2 | para=5 | para2= | show_player=1 | battle_news_key=ActivitySH_3phase_key31_1 | battle_news_banner=battle_news_banner1
+  id=61 | act_id=79101431 | group=2 | type=2 | para=15 | para2= | show_player=1 | battle_news_key=ActivitySH_3phase_key31_2 | battle_news_banner=battle_news_banner2
+  id=62 | act_id=79101431 | group=2 | type=2 | para=30 | para2= | show_player=1 | battle_news_key=ActivitySH_3phase_key31_3 | battle_news_banner=battle_news_banner3
+  id=63 | act_id=79101431 | group=2 | type=3 | para=2 | para2= | show_player=1 | battle_news_key=ActivitySH_3phase_key32 | battle_news_banner=battle_news_banner1
+  id=64 | act_id=79101431 | group=1 | type=1 | para=10 | para2= | show_player=1 | battle_news_key=storm_ssemble_902 | battle_news_banner=
+  id=65 | act_id=79101431 | group=1 | type=2 | para=25 | para2= | show_player=1 | battle_news_key=ActivitySH_3phase_key31_1 | battle_news_banner=battle_news_banner1
+  id=66 | act_id=79101431 | group=1 | type=2 | para=50 | para2= | show_player=1 | battle_news_key=ActivitySH_3phase_key31_1 | battle_news_banner=battle_news_banner1
+  id=67 | act_id=79101431 | group=1 | type=18 | para=1 | para2= | show_player=1 | battle_news_key=storm_ssemble_904 | battle_news_banner=battle_news_banner1
+  id=68 | act_id=79101431 | group=1 | type=15 | para=1 | para2= | show_player=1 | battle_news_key=storm_ssemble_905 | battle_news_banner=battle_news_banner1
+  id=69 | act_id=79101431 | group=1 | type=2 | para=3 | para2=1 | show_player=1 | battle_news_key=ActivitySH_3phase_key31_1 | battle_news_banner=battle_news_banner1
+  id=70 | act_id=79101431 | group=1 | type=2 | para=5 | para2=1 | show_player=1 | battle_news_key=ActivitySH_3phase_key31_1 | battle_news_banner=battle_news_banner1
+  id=71 | act_id=79101431 | group=1 | type=2 | para=10 | para2=1 | show_player=1 | battle_news_key=ActivitySH_3phase_key31_1 | battle_news_banner=battle_news_banner1
+  id=72 | act_id=79101431 | group=1 | type=2 | para=15 | para2=1 | show_player=1 | battle_news_key=ActivitySH_3phase_key31_1 | battle_news_banner=battle_news_banner1
+  id=73 | act_id=79101431 | group=1 | type=2 | para=20 | para2=1 | show_player=1 | battle_news_key=ActivitySH_3phase_key31_1 | battle_news_banner=battle_news_banner1
+  ... and 117 more rows
+
+--- data_config: 2 new rows (was 4657, now 4659) ---
+  Headers: ['id', 'name', 'value']
+  id=540045 | name=goldbrick_shop_redirection | value=|https://h5.topwargame.com/h5game/bullionPayNew/index.htm...
+  id=80000018 | name=hero_equip_wash_time | value=3
+
+--- doubleBP_para: 2 new rows (was 271, now 273) ---
+  Headers: ['act_id', 'exchange_id', 'item_id', 'infinite_reward', 'free_buff', 'bp_limit', 'super_show', 'extra_show_exp']
+  act_id=81200277 | exchange_id=81300238|81300239 | item_id=81000099 | infinite_reward=500|9900001|30 | free_buff=0 | bp_limit=10000000 | super_show=1 | extra_show_exp=10
+  act_id=38001138 | exchange_id=25092601|25092602 | item_id=57027023 | infinite_reward=500|9900001|30 | free_buff=0 | bp_limit=10000000 | super_show=1 | extra_show_exp=10
+
+--- dress_headframe: 1 new rows (was 158, now 159) ---
+  Headers: ['id', 'res_type', 'pic', 'prefab', 'get_type', 'get_desc', 'get_param', 'name', 'is_show', 'show_order', 'userui_main_offset', 'world_offset', 'plat', 'time', 'endtime', 'timeType', 'order', 'plat_ignore', 'is_preshow', 'own_buff', 'have_power']
+  id=159 | res_type=2 | pic=image/headFrame/headFrame_159 | prefab=ea_prefab/__subpack/headFrameEffect/headFrame_159 | get_type=6 | get_desc=activity_goldbrick_headframe | get_param=0 | name=headFrame_name159 | is_show=1 | show_order=70
+
+--- exchange_page: 1 new rows (was 15, now 16) ---
+  Headers: ['id', 'page_order']
+  id=16 | page_order=90
+
+--- fight_report_from_show: 1 new rows (was 98, now 99) ---
+  Headers: ['id', 'type_big', 'big_desc', 'type_small', 'is_show', 'order']
+  id=113 | type_big=140.0 | big_desc=headframe_attribute_bonus | type_small=138 | is_show=1 | order=10000
+
+--- guide_activity: 1 new rows (was 3502, now 3503) ---
+  Headers: ['id', 'group', 'type', 'text', 'child', 'png', 'para']
+  id=630804 | group=6308 | type=2 | text=conqueror2025_escort_train_FAQ_33 | child= | png= | para=
+
+--- hero_equip_model: 36 new rows (was 342, now 378) ---
+  Headers: ['id', 'type_icon']
+  id=20001 | type_icon=2
+  id=20002 | type_icon=2
+  id=20003 | type_icon=2
+  id=20004 | type_icon=2
+  id=20005 | type_icon=2
+  id=20006 | type_icon=2
+  id=20007 | type_icon=2
+  id=20008 | type_icon=2
+  id=20009 | type_icon=2
+  id=20010 | type_icon=2
+  id=20011 | type_icon=2
+  id=20012 | type_icon=2
+  id=20013 | type_icon=2
+  id=20014 | type_icon=2
+  id=20015 | type_icon=2
+  ... and 21 more rows
+
+--- hero_skill: 4 new rows (was 571, now 575) ---
+  Headers: ['id', 'name', 'desc', 'skill_type', 'skill_show', 'fight', 'quality', 'hero_id', 'decomposition', 'active_skill_use', 'active_skill_cd', 'active_skill_time', 'condition', 'initiative', 'probability', 'effect', 'effect_type', 'para', 'para_add', 'para_time', 'para_equip_skill', 'superposition', 'effectiveNumber', 'detail_desc', 'fragmentsNumber', 'power', 'playback', 'skill_icon', 'para_desc', 'player_opportunity', 'spell_effect', 'reset_sustained_buff', 'sustained_buff', 'replace_effect', 'add_effect', 'is_show', 'plat', 'skill_show_id', 'sustained_targetOff', 'sustained_buff_para', 'attack_effect', 'hit_effect', 'effect_new', 'para_equip_skill_new', 'para_new', 'fight_type', 'active_skill_frequency', 'newactive_skill_time', 'active_skill_status', 'heroskill_tips', 'effect_new_level', 'effect_new_desc_para', 'effect_new_exhibition', 'power_1', 'delay', 'except_buff_skill_add', 'effect_show_new', 'supportive_skill_old', 'para_add_star_6', 'skill_show_type', 'power_pve', 'heroskill_tips_numerical_parameters', 'para_add_digit', 'des_new', 'simple_des', 'new_effect_new_level', 'detail_desc_new', 'skill_team_fight_num', 'exclusiveSkill_team_fight_num', 'equip_skill_team_fight_num', 'cannot_equip_hero', 'upgrade_skill_display_max_level']
+  id=10174 | name=skill_name10174 | desc=skill_desc10174 | skill_type=1 | skill_show=3 | fight=1 | quality= | hero_id= | decomposition= | active_skill_use=
+  id=20764 | name=skill_name20764 | desc=skill_desc20764 | skill_type=3 | skill_show=4 | fight=1 | quality=3 | hero_id=174 | decomposition=2550001|5 | active_skill_use=
+  id=10338 | name=skill_name10338 | desc=skill_desc10338 | skill_type=1 | skill_show=3 | fight=1 | quality= | hero_id= | decomposition= | active_skill_use=
+  id=20765 | name=skill_name20765 | desc=skill_desc20765 | skill_type=3 | skill_show=4 | fight=1 | quality=3 | hero_id=338 | decomposition=2550001|5 | active_skill_use=
+
+--- hero_skill_key_id: 19 new rows (was 364, now 383) ---
+  Headers: ['id', 'type', 'color', 'power_point', 'desc', 'bold', 'para_link']
+  id=320168 | type=3 | color=009623 | power_point=4 | desc= | bold= | para_link=
+  id=320169 | type=3 | color=009623 | power_point=1 | desc= | bold= | para_link=
+  id=320170 | type=3 | color=009623 | power_point=70% | desc= | bold= | para_link=
+  id=320171 | type=3 | color=009623 | power_point=30% | desc= | bold= | para_link=
+  id=320172 | type=3 | color=009623 | power_point=1-2 | desc= | bold= | para_link=
+  id=320173 | type=3 | color=009623 | power_point=50% | desc= | bold= | para_link=
+  id=320174 | type=3 | color=009623 | power_point=1 | desc= | bold= | para_link=
+  id=320175 | type=3 | color=009623 | power_point=2-4 | desc= | bold= | para_link=
+  id=320176 | type=3 | color=009623 | power_point=50% | desc= | bold= | para_link=
+  id=320186 | type=3 | color=009623 | power_point=30% | desc= | bold= | para_link=
+  id=320187 | type=3 | color=009623 | power_point=2 | desc= | bold= | para_link=
+  id=320188 | type=3 | color=009623 | power_point=10% | desc= | bold= | para_link=
+  id=320189 | type=3 | color=009623 | power_point=300% | desc= | bold= | para_link=
+  id=320190 | type=3 | color=009623 | power_point=3 | desc= | bold= | para_link=
+  id=320191 | type=3 | color=009623 | power_point=30% | desc= | bold= | para_link=
+  ... and 4 more rows
+
+--- infinite_gift_group: 15 new rows (was 3942, now 3957) ---
+  Headers: ['id', 'type', 'group', 'team', 'exchange', 'reward', 'reward2', 'value', 'exhibition', 'effect']
+  id=4050 | type=140 | group=1 | team=1 | exchange= | reward=240516044 | reward2= | value=6200|1120|8010 | exhibition=3|2|2 | effect=0|0|0
+  id=4051 | type=140 | group=2 | team=1 | exchange=240516045 | reward=240516044 | reward2=240516044 | value=5850|1120|1120 | exhibition=3|2|2 | effect=0|0|0
+  id=4052 | type=140 | group=3 | team=1 | exchange=240516046 | reward=240516047 | reward2=240516047 | value=7500|2260|2260 | exhibition=3|2|2 | effect=0|0|0
+  id=4053 | type=140 | group=4 | team=1 | exchange=240516048 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4054 | type=140 | group=5 | team=1 | exchange=240516050 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4055 | type=140 | group=6 | team=1 | exchange=240516051 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4056 | type=140 | group=7 | team=1 | exchange=240516052 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4057 | type=140 | group=8 | team=1 | exchange=240516053 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4058 | type=140 | group=9 | team=1 | exchange=240516054 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4059 | type=140 | group=10 | team=1 | exchange=240516055 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4060 | type=140 | group=11 | team=1 | exchange=240516056 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4061 | type=140 | group=12 | team=1 | exchange=240516057 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4062 | type=140 | group=13 | team=1 | exchange=240516058 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4063 | type=140 | group=14 | team=1 | exchange=240516059 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+  id=4064 | type=140 | group=15 | team=1 | exchange=240516060 | reward=240516049 | reward2=240516049 | value=15450|4560|4560 | exhibition=3|2|2 | effect=0|0|0
+
+--- item_guarantee: 1 new rows (was 61, now 62) ---
+  Headers: ['id', 'group', 'target_value', 'reward_id', 'reward_des', 'pro_id', 'banner', 'name', 'single_value', 'banner_v2', 'target_value_key', 'single_value_key', 'des', 'reward_icon', 'reward_des1', 'reward_des2', 'reward_des3', 'reward_des4']
+  id=260304001 | group=43 | target_value=5 | reward_id=79270113 | reward_des=item_guarantee_key2623 | pro_id=387 | banner=guarantee_banner_yuebin_2026 | name=item_name_260304001 | single_value=1 | banner_v2=guarantee_banner_yuebin_2026
+
+--- mail: 16 new rows (was 894, now 910) ---
+  Headers: ['id', 'type', 'title', 'content', 'para', 'icon', 'receive_plat', 'reward_plat', 'subtitle_key']
+  id=3429 | type=3 | title=mail_title_3429 | content=mail_content_3429 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3430 | type=3 | title=mail_title_3430 | content=mail_content_3430 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3431 | type=15 | title=mail_title_3431 | content=mail_content_3431 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3434 | type=15 | title=mail_title_3434 | content=mail_content_3434 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3435 | type=15 | title=mail_title_3435 | content=mail_content_3435 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3436 | type=15 | title=mail_title_3436 | content=mail_content_3436 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3437 | type=15 | title=mail_title_3437 | content=mail_content_3437 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3438 | type=15 | title=mail_title_3438 | content=mail_content_3438 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3439 | type=15 | title=mail_title_3439 | content=mail_content_3439 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3440 | type=15 | title=mail_title_3440 | content=mail_content_3440 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3441 | type=15 | title=mail_title_3441 | content=mail_content_3441 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3442 | type=15 | title=mail_title_3442 | content=mail_content_3442 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3443 | type=15 | title=mail_title_3443 | content=mail_content_3443 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3444 | type=15 | title=mail_title_3444 | content=mail_content_3444 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  id=3447 | type=15 | title=mail_title_3442 | content=mail_content_3442 | para= | icon= | receive_plat= | reward_plat= | subtitle_key=
+  ... and 1 more rows
+
+--- monster: 1 new rows (was 6303, now 6304) ---
+  Headers: ['id', 'group_id', 'level', 'reward', 'monster_level', 'star', 'monster_star', 'monster_name', 'monster_desc', 'custom_desc', 'model', 'icon_min', 'icon_max', 'soldier_level', 'soldier_count', 'hero_star', 'hero_level', 'component_level', 'csb_monster_score']
+  id=502415 | group_id=502415 | level=100 | reward=0 | monster_level=502415 | star= | monster_star= | monster_name= | monster_desc= | custom_desc=
+
+--- monster_group: 1 new rows (was 351, now 352) ---
+  Headers: ['id', 'model', 'icon', 'icon_big', 'picture', 'x_para', 'y_para', 'name', 'desc', 'cost_energy', 'life_time', 'death_time', 'drop_client', 'search_show', 'search_shield', 'super_assembly_cost', 'model_size', 'search_order', 'monster_type', 'search_level', 'search_group', 'personal_honor', 'reward_res_show', 'passenger_cost', 'switch', 'map_zoom_icon', 'monster_arms', 'empire_level_show_lv', 'drop_client_full', 'suggest_lv', 'search_show_kvk', 'absolute_or_relatively_level', 'expansion_model', 'expansion_icon', 'expansion_icon_big', 'expansion_picture', 'nw_expansion_model', 'nw_expansion_icon', 'nw_expansion_icon_big', 'nw_expansion_picture', 'relevance_activity', 'drop_client_limit', 'afk_reward_show', 'monster_categories']
+  id=502415 | model=B_20260123_yuansu_duoluo | icon=image/PabResArt/BossIcon/enigma_boss_CQ25 | icon_big=image/PabResArt/BossIcon/enigma_boss_CQ25 | picture= | x_para= | y_para= | name=enigma_boss_name_dark | desc=enigma_realm213 | cost_energy=0
+
+--- probability: 1 new rows (was 363, now 364) ---
+  Headers: ['id', 'type', 'para', 'name', 'probability', 'num']
+  id=387 | type= | para= | name=pro_381_1 | probability=10000 | num=1
+
+--- pve_monster: 1 new rows (was 10706, now 10707) ---
+  Headers: ['id', 'enemy_type', 'hero', 'hero_level', 'hero_star', 'hero_skill', 'battle_buff', 'enemy_config', 'unit_model', 'reward', 'reward_1', 'reward_world_v1', 'reward_show', 'gift', 'warrior_drop', 'engineer_drop', 'round_limit', 'reward_res_show', 'hero_exp', 'reward_full', 'reward_show_full', 'fight_power', 'army_number', 'extra_reward', 'afk_reward', 'afk_reward_show']
+  id=502415 | enemy_type=0 | hero= | hero_level= | hero_star= | hero_skill= | battle_buff=9301160|6480000,9301170|324000000,1131008|4950,930300|495... | enemy_config=0,630011|1,0,0,0,0,0,0,0 | unit_model= | reward=
+
+--- reward: 52 new rows (was 53581, now 53633) ---
+  Headers: ['id', 'coin', 'wood', 'oil', 'energy', 'exp', 'gold', 'military', 'cab_res', 'csb_res', 'army_id', 'army_num', 'honor', 'kvk_tec_res', 'kvk_task_coin', 'kvk_tec_coin', 'type', 'item', 'num', 'quality', 'rate', 'is_removal', 'building', 'building_num', 'building_rate', 'resource', 'resource_num', 'resource_rate', 'hero', 'hero_num', 'hero_rate', 'newReward', 'union_box', 'must_items', 'exhibition', 'item_minimum_type', 'item_minimum', 'chip', 'chip_num', 'chip_rate', 'chip_level', 'chip_choose_num', 'chip_choose_idx']
+  id=38001023 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=38001024 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270111 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270110 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270112 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270113 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270114 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270115 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270116 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270117 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270118 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270119 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270120 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270121 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  id=79270122 | coin= | wood= | oil= | energy= | exp= | gold= | military= | cab_res= | csb_res=
+  ... and 37 more rows
+
+--- video_activity: 2 new rows (was 243, now 245) ---
+  Headers: ['id', 'path', 'switch', 'pic', 'bgIndex', 'size', 'close_button_show']
+  id=261 | path=zh_cn|hero_174_zh,en|hero_174_en,jp|hero_174_jp,ko|hero_1... | switch= | pic=hero_174.png | bgIndex=-2 | size=640|1000 | close_button_show=
+  id=262 | path=zh_cn|hero_338_zh,en|hero_338_en,jp|hero_338_jp,ko|hero_3... | switch= | pic=herovideo_338.png | bgIndex=-2 | size=640|1000 | close_button_show=
+
+--- ws_act_season_reward: 120 new rows (was 1495, now 1615) ---
+  Headers: ['id', 'act_id', 'group', 'season', 'season_stage', 'need_power', 'win_reward', 'los_reward']
+  id=1496 | act_id=79101431 | group=1 | season=6 | season_stage=0 | need_power=0,0 | win_reward=79270114 | los_reward=79270119
+  id=1497 | act_id=79101431 | group=1 | season=6 | season_stage=0 | need_power=125,4 | win_reward=79270115 | los_reward=79270120
+  id=1498 | act_id=79101431 | group=1 | season=6 | season_stage=0 | need_power=125,5 | win_reward=79270116 | los_reward=79270121
+  id=1499 | act_id=79101431 | group=1 | season=6 | season_stage=0 | need_power=125,6 | win_reward=79270117 | los_reward=79270122
+  id=1500 | act_id=79101431 | group=1 | season=6 | season_stage=0 | need_power=5,8 | win_reward=79270118 | los_reward=79270123
+  id=1501 | act_id=79101431 | group=1 | season=7 | season_stage=0 | need_power=0,0 | win_reward=79270114 | los_reward=79270119
+  id=1502 | act_id=79101431 | group=1 | season=7 | season_stage=0 | need_power=125,4 | win_reward=79270115 | los_reward=79270120
+  id=1503 | act_id=79101431 | group=1 | season=7 | season_stage=0 | need_power=125,5 | win_reward=79270116 | los_reward=79270121
+  id=1504 | act_id=79101431 | group=1 | season=7 | season_stage=0 | need_power=125,6 | win_reward=79270117 | los_reward=79270122
+  id=1505 | act_id=79101431 | group=1 | season=7 | season_stage=0 | need_power=5,8 | win_reward=79270118 | los_reward=79270123
+  id=1506 | act_id=79101431 | group=2 | season=6 | season_stage=0 | need_power=0,0 | win_reward=79270124 | los_reward=79270129
+  id=1507 | act_id=79101431 | group=2 | season=6 | season_stage=0 | need_power=125,4 | win_reward=79270125 | los_reward=79270130
+  id=1508 | act_id=79101431 | group=2 | season=6 | season_stage=0 | need_power=125,5 | win_reward=79270126 | los_reward=79270131
+  id=1509 | act_id=79101431 | group=2 | season=6 | season_stage=0 | need_power=125,6 | win_reward=79270127 | los_reward=79270132
+  id=1510 | act_id=79101431 | group=2 | season=6 | season_stage=0 | need_power=5,8 | win_reward=79270128 | los_reward=79270133
+  ... and 105 more rows
+
+████████████████████████████████████████████████████████████████████████████████
+SECTION 2: LOCALE DIFF EN (3384 → 3413)
+████████████████████████████████████████████████████████████████████████████████
+
+LOCALE DIFF: en_1.6.3384 → en_1.6.3413
+============================================================
+OLD keys: 63991
+NEW keys: 64057
+ADDED:    66
+REMOVED:  0
+CHANGED:  4
+
+============================================================
+NEW KEYS (66)
+============================================================
+
+[act_gift_title_ActivityAuction]
+  Auction House Special Pack
+
+[activity_tips_81200207_1]
+  1. There are a total of 3 Easter Egg Baskets, with one unlocking each day.\n2. Before purchasing the result of a wish, you can make unlimited wishes for free.\n3. Each wish can yield a maximum of 2 advanced rewards.\n4. During the event, rewards from each Easter Egg Basket can only be purchased once.\n5. For advanced rewards in Health Wishing and Happiness Wishing, only one item of the same type can be obtained per wish.\n6. For advanced rewards in Fortune Wishing, the Sorcery Box, Mischief Pumpkin, Tire Wall, Rice Rider, Spring Festival Float, Armor Breaker, Cupid, Gas Station, New Year Clock Tower, and Florist Lantern form one group; the Water Tower, Naval Mine, Flying Messenger, Four-Legged Fighter, Cargo Port, Blue Dandelion, Royal Parade, and Chemistry in the Air form another. You can only obtain one reward from the same group per wish. In a single wish, there is a chance to draw one decoration from each group.
+
+[alliance_battle_01_2]
+  [Alliance Duel]
+
+[conqueror2025_escort_train_FAQ_33]
+  Leaving the Alliance will prevent you from receiving any rewards from the Seal Stone Train that day.
+
+[hero_equip_info23_2]
+  When refining, identical attribute types extracted from consumed gear will prioritize rolling on stats that have not yet reached their maximum values. When replacing: if the new attribute type is the same as the current one and all attributes are already maxed out, the maximum value remains unchanged; if the attribute type is different, both the original type and value are replaced by the new ones.
+
+[hero_equip_wash_info_1]
+  You may roll an attribute of the same type that is already at its maximum value. If this happens, the stat will not increase. Confirm refining?
+
+[hero_equip_wash_info_2]
+  Confirms in: {0}s
+
+[item_des_81000190]
+  Use it to get the Gold Block Proof Avatar Frame (15 days)
+
+[item_des_81000191]
+  Use it to get the Gold Block Proof Avatar Frame (Permanent)
+
+[item_desc_44001001]
+  Once obtained, automatically grants an Orange Titan Gear with a single attribute corresponding to its name.
+
+[item_desc_44002001]
+  Select a Titan Gear corresponding to its name.
+
+[item_desc_44003001]
+  Select a Titan Gear Choice Chest of any slot.
+
+[item_name_44001001]
+  Assault Pistol (Army DMG Increase)
+
+[item_name_44001002]
+  Assault Pistol (Navy DMG Increase)
+
+[item_name_44001003]
+  Assault Pistol (Air Force DMG Increase)
+
+[item_name_44001004]
+  Assault Pistol (Army ATK Boost)
+
+[item_name_44001005]
+  Assault Pistol (Navy ATK Boost)
+
+[item_name_44001006]
+  Assault Pistol (Air Force ATK Boost)
+
+[item_name_44001007]
+  Tactical Backarmor (Army DEF Boost)
+
+[item_name_44001008]
+  Tactical Backarmor (Navy DEF Boost)
+
+[item_name_44001009]
+  Tactical Backarmor (Air Force DEF Boost)
+
+[item_name_44001010]
+  Tactical Backarmor (Army HP Boost)
+
+[item_name_44001011]
+  Tactical Backarmor (Navy HP Boost)
+
+[item_name_44001012]
+  Tactical Backarmor (Air Force HP Boost)
+
+[item_name_44001013]
+  Optical Add-on (Army DMG Increase)
+
+[item_name_44001014]
+  Optical Add-on (Navy DMG Increase)
+
+[item_name_44001015]
+  Optical Add-on (Air Force DMG Increase)
+
+[item_name_44001016]
+  Optical Add-on (Army ATK Boost)
+
+[item_name_44001017]
+  Optical Add-on (Navy ATK Boost)
+
+[item_name_44001018]
+  Optical Add-on (Air Force ATK Boost)
+
+[item_name_44001019]
+  Raysor Headset (Army Decreased DMG Taken)
+
+[item_name_44001020]
+  Raysor Headset (Navy Decreased DMG Taken)
+
+[item_name_44001021]
+  Raysor Headset (Air Force Decreased DMG Taken)
+
+[item_name_44001022]
+  Raysor Headset (Army HP Boost)
+
+[item_name_44001023]
+  Raysor Headset (Navy HP Boost)
+
+[item_name_44001024]
+  Raysor Headset (Air Force HP Boost)
+
+[item_name_44001025]
+  Portable GPS (Army DMG Increase)
+
+[item_name_44001026]
+  Portable GPS (Navy DMG Increase)
+
+[item_name_44001027]
+  Portable GPS (Air Force DMG Increase)
+
+[item_name_44001028]
+  Portable GPS (Army ATK Boost)
+
+[item_name_44001029]
+  Portable GPS (Navy ATK Boost)
+
+[item_name_44001030]
+  Portable GPS (Air Force ATK Boost)
+
+[item_name_44001031]
+  Power Boots (Army Decreased DMG Taken)
+
+[item_name_44001032]
+  Power Boots (Navy Decreased DMG Taken)
+
+[item_name_44001033]
+  Power Boots (Air Force Decreased DMG Taken)
+
+[item_name_44001034]
+  Power Boots (Army HP Boost)
+
+[item_name_44001035]
+  Power Boots (Navy HP Boost)
+
+[item_name_44001036]
+  Power Boots (Air Force HP Boost)
+
+[item_name_44002001]
+  Assault Pistol Choice Chest
+
+[item_name_44002002]
+  Tactical Backarmor Choice Chest
+
+[item_name_44002003]
+  Optical Add-on Choice Chest
+
+[item_name_44002004]
+  Raysor Headset Choice Chest
+
+[item_name_44002005]
+  Portable GPS Choice Chest
+
+[item_name_44002006]
+  Power Boots Choice Chest
+
+[item_name_44003001]
+  Titan Gear Choice Chest
+
+[item_name_81000190]
+  Gold Block Proof Avatar Frame (15 days)
+
+[item_name_81000191]
+  Gold Block Proof Avatar Frame (Permanent)
+
+[mail_content3446]
+  Dear Commander,\nBased on your feedback, we have optimized the Titan Gear Refinement feature. Moving forward, identical attribute types will prioritize rolling on stats that have not yet reached their maximum values. Prior to this update, refining identical attributes onto already maxed-out stats yielded no improvements, resulting in wasted resources. To make up for this, we are issuing compensation based on the amount of equipment you lost. Please check the Titan Gear Choice Chest (rewards are sent to your Inventory).\nWe sincerely apologize for any inconvenience this may have caused, and we greatly appreciate your continued understanding and support.\nTop War Support Team
+
+[mail_title3446]
+  Titan Gear Compensation
+
+[new_hero_pack174_2]
+  Ella Skill Pack
+
+[new_hero_pack240_2]
+  Sinope Skill Pack
+
+[new_hero_pack241_2]
+  Margaretha Skill Pack
+
+[new_hero_pack338_2]
+  Franziska Skill Pack
+
+[storm_ssemble_950]
+  Army Apex {0} is hosting a Storm Parade at ({1},{2}). Go claim your rewards!
+
+[storm_ssemble_951]
+  Navy Apex {0} is hosting a Storm Parade at ({1},{2}). Go claim your rewards!
+
+[storm_ssemble_952]
+  Air Force Apex {0} is hosting a Storm Parade at ({1},{2}). Go claim your rewards!
+
+============================================================
+CHANGED KEYS (4)
+============================================================
+
+[auction_0522005]
+  OLD: Your listed item was sold! Claim your {1} Auction Coins at {0}.
+  NEW: Your listed item was sold! Claim your {1} Revenue Coins at {0}.
+
+[auction_36]
+  OLD: Item can only be delisted after {0} minutes of listing. Once a bid is placed, delisting is not possible. Please confirm cautiously.
+  NEW: Once a bid for an item is placed, delisting is not possible. Please confirm cautiously.
+
+[item_desc39200250]
+  OLD: Use it to choose one of the following: Orange Shard x40, Blue Material Choice Chest x25, Lv. 5 Rare Skill Choice Chest x1, or 8,000 Gems x1
+  NEW: Use it to choose one of the following: Orange Universal Shard x40, Blue Material Choice Chest x25, Lv. 5 Rare Skill Choice Chest x1, or 8,000 Gems x1
+
+[item_name39200250]
+  OLD: Premium Purchase Event Choice Chest
+  NEW: Premium Purchase Choice Chest
+
+================================================================================
+END OF REPORT
+================================================================================
